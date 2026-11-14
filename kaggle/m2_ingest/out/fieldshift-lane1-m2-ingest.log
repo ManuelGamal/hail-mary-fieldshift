@@ -1,0 +1,426 @@
+[{"stream_name":"stdout","time":19.214286103,"data":"SGZ grid 1233 x 699\n"}
+,{"stream_name":"stderr","time":128.020761039,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":128.020805429,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":128.031531147,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":128.031566807,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":128.037097796,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":128.037133295,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":190.863488823,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":190.863530993,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":190.871142782,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":190.871178662,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":190.874870221,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":190.874906821,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":427.963446252,"data":"[    413s] SGZ S2023: 89 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 409s\n"}
+,{"stream_name":"stderr","time":522.512352614,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":522.512419384,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":522.517831795,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":522.517876604,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":522.520553984,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":522.520592695,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":628.766317494,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":628.766366944,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":628.774348004,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":628.774411975,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":628.778138964,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":628.778186044,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":815.156294511,"data":"[    801s] SGZ W2024: 92 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 387s\n"}
+,{"stream_name":"stdout","time":1189.414045057,"data":"[   1175s] SGZ S2024: 91 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 374s\n"}
+,{"stream_name":"stdout","time":1190.507868247,"data":"[   1176s] SGZ W2016: 0 dates, step valid [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 1s\n"}
+,{"stream_name":"stdout","time":1190.857220826,"data":"[   1176s] SGZ S2016: 0 dates, step valid [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 0s\n"}
+,{"stream_name":"stdout","time":1191.210446553,"data":"[   1177s] SGZ W2017: 0 dates, step valid [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 0s\n"}
+,{"stream_name":"stderr","time":1223.672663082,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1223.672756412,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":1223.677781791,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1223.677819971,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":1223.678367821,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1223.678407721,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":1256.778469101,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1256.778510461,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":1257.985966531,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1257.986013541,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":1257.987196641,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1257.987213061,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":1288.261927589,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1288.261975199,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":1288.326125543,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1288.326162453,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":1288.327416783,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1288.327436403,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":1288.79525282,"data":"[   1274s] SGZ S2017: 7 dates, step valid [0.0, 0.0, 0.0, 1.0, 0.821, 0.991], 98s\n"}
+,{"stream_name":"stderr","time":1325.695407032,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1325.695452791,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":1327.22244698,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1327.22248366,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":1327.2233003,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1327.22331447,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":1356.893122981,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1356.893165811,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":1358.769907262,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1358.769950082,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":1358.770620392,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1358.770639592,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":1388.090294481,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1388.090336991,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":1388.611578654,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1388.611614484,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":1388.612449324,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1388.612464684,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":1418.525587942,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1418.525634682,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":1418.807798837,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1418.807832687,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":1418.808669587,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1418.808688807,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":1433.873214945,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1433.873263605,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":1437.91355094,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1437.91359601,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":1437.91442168,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1437.91443735,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":1438.400806304,"data":"[   1424s] SGZ W2018: 9 dates, step valid [0.772, 0.721, 0.923, 0.958, 0.394, 0.0, 0.0], 150s\n"}
+,{"stream_name":"stdout","time":1439.553935763,"data":"[   1425s] SGZ S2018: 0 dates, step valid [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 1s\n"}
+,{"stream_name":"stdout","time":1440.001573246,"data":"[   1426s] SGZ W2019: 0 dates, step valid [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 0s\n"}
+,{"stream_name":"stdout","time":1440.433468525,"data":"[   1426s] SGZ S2019: 0 dates, step valid [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 0s\n"}
+,{"stream_name":"stderr","time":1509.035965165,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1509.036143496,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":1509.059502134,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1509.059538594,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":1509.062568194,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1509.062607954,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":1569.70382098,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1569.70386833,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":1569.713994449,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1569.714027109,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":1569.716958149,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1569.71699784,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":1602.871292073,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1602.871334363,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":1602.888321713,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1602.888344633,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":1602.890650883,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1602.890666453,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":1721.286973055,"data":"[   1707s] SGZ W2020: 47 dates, step valid [0.0, 0.0, 0.998, 1.0, 0.999, 1.0, 1.0], 281s\n"}
+,{"stream_name":"stderr","time":1885.844949872,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1885.845005281,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":1885.852888931,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1885.852931691,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":1885.856327491,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":1885.856369911,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":2043.1274657,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":2043.127508899,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":2043.136247099,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":2043.136270269,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":2043.140084959,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":2043.140104369,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":2043.770977596,"data":"[   2029s] SGZ S2020: 74 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 322s\n"}
+,{"stream_name":"stderr","time":2091.064582474,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":2091.064635514,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":2091.069687614,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":2091.069718244,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":2091.072669244,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":2091.072695474,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":2153.173671231,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":2153.173715831,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":2153.181553271,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":2153.181603631,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":2153.184660701,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":2153.184706741,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":3149.777339064,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3149.777596954,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":3149.785112164,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3149.785131034,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":3149.788448143,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3149.788466823,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":3212.057997705,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3212.058058445,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":3212.064185665,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3212.064224085,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":3212.066889255,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3212.066917145,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":3272.045005305,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3272.045052146,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":3272.052894945,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3272.052937175,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":3272.056013345,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3272.056053916,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":3314.482850366,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3314.482892836,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":3314.494977716,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3314.495015956,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":3314.498077266,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3314.498114925,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":3378.931748713,"data":"[   3364s] SGZ W2021: 78 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 0.999, 1.0], 1335s\n"}
+,{"stream_name":"stderr","time":3440.273289803,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3440.273360273,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":3440.283290383,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3440.283324043,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":3440.287931913,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3440.287976563,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":3643.656850484,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3643.656896364,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":3643.663983754,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3643.664041914,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":3643.667439554,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3643.667469914,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":3705.377220456,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3705.377263385,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":3705.387116855,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3705.387152185,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":3705.390665265,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3705.390693555,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":3706.02220958,"data":"[   3692s] SGZ S2021: 76 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 327s\n"}
+,{"stream_name":"stderr","time":3804.531601158,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3804.531647829,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":3804.540546138,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3804.540578389,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":3804.543744918,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3804.543762778,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":3837.411990076,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3837.412058126,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":3837.419996126,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3837.420038046,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":3837.423635526,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3837.423678426,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":3958.476691188,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3958.476742718,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":3958.529474566,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3958.529510987,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":3958.533060576,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":3958.533084176,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":4019.876568372,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":4019.876639702,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":4019.885227162,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":4019.885264932,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":4019.888999772,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":4019.889054282,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":4081.315125295,"data":"[   4067s] SGZ W2022: 90 dates, step valid [1.0, 1.0, 1.0, 1.0, 0.994, 1.0, 1.0], 375s\n"}
+,{"stream_name":"stderr","time":4305.283097382,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":4305.283145561,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":4305.295265001,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":4305.295310661,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":4305.299904481,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":4305.299945201,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":4429.313445459,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":4429.313504649,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":4429.322085409,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":4429.322106669,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":4429.326040119,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":4429.326056549,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":4429.962986047,"data":"[   4415s] SGZ S2022: 88 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 349s\n"}
+,{"stream_name":"stderr","time":4694.609101947,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":4694.609232247,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":4694.620594417,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":4694.620646947,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":4694.623873137,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":4694.623938427,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":4796.875620962,"data":"[   4782s] SGZ W2023: 91 dates, step valid [1.0, 1.0, 1.0, 1.0, 0.999, 1.0, 1.0], 367s\n"}
+,{"stream_name":"stderr","time":4965.972341892,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":4965.972421432,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":4965.980475242,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":4965.980503752,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":4965.983864842,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":4965.983884112,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":5028.263641926,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":5028.263689456,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":5028.269796136,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":5028.269843176,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":5028.273190646,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":5028.273228476,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":5198.497322572,"data":"[   5184s] SGZ W2025: 100 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 402s\n"}
+,{"stream_name":"stdout","time":5825.401503556,"data":"[   5811s] SGZ S2025: 93 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 627s\n"}
+,{"stream_name":"stdout","time":5829.073463235,"data":"ZAN grid 1260 x 1302\n"}
+,{"stream_name":"stderr","time":5942.249647491,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":5942.249691061,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":5942.26977221,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":5942.26983731,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":5942.27767427,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":5942.27778023,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":6219.075201204,"data":"[   6205s] ZAN S2023: 88 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 390s\n"}
+,{"stream_name":"stderr","time":6492.87242396,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":6492.87246723,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":6493.245121889,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":6493.245176519,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":6493.251655709,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":6493.251725469,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":7564.378814225,"data":"[   7550s] ZAN W2024: 89 dates, step valid [1.0, 1.0, 1.0, 1.0, 0.972, 1.0, 1.0], 1345s\n"}
+,{"stream_name":"stdout","time":8981.620344151,"data":"[   8967s] ZAN S2024: 92 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 1417s\n"}
+,{"stream_name":"stdout","time":8982.717165504,"data":"[   8968s] ZAN W2016: 0 dates, step valid [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 1s\n"}
+,{"stream_name":"stdout","time":8983.144317564,"data":"[   8969s] ZAN S2016: 0 dates, step valid [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 0s\n"}
+,{"stream_name":"stdout","time":8983.558971124,"data":"[   8969s] ZAN W2017: 0 dates, step valid [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 0s\n"}
+,{"stream_name":"stderr","time":9017.204978234,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9017.205024264,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":9022.456312877,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9022.456359486,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":9022.458651976,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9022.458689287,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":9106.636682076,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9106.636731166,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":9108.783480704,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9108.783529024,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":9108.785711074,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9108.785744454,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":9109.648099223,"data":"[   9095s] ZAN S2017: 9 dates, step valid [0.0, 0.0, 0.0, 0.59, 1.0, 0.833], 126s\n"}
+,{"stream_name":"stderr","time":9144.64460871,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9144.64465654,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":9149.700660187,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9149.700707847,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":9149.702418757,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9149.702437967,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":9154.218520027,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9154.218560567,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":9167.054948405,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9167.055004625,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":9167.056931424,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9167.056970784,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":9199.495136875,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9199.495182434,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":9206.761531148,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9206.761592067,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":9206.763976427,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9206.764010098,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":9241.13143917,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9241.13148181,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":9247.548569854,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9247.548620824,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":9247.550533254,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9247.550574794,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":9279.570056964,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9279.570114174,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":9279.667498771,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9279.667542222,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":9279.669026982,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9279.669055962,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":9280.580986539,"data":"[   9266s] ZAN W2018: 10 dates, step valid [0.607, 0.0, 0.433, 0.496, 0.993, 0.0, 0.0], 171s\n"}
+,{"stream_name":"stdout","time":9281.577856315,"data":"[   9267s] ZAN S2018: 0 dates, step valid [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 1s\n"}
+,{"stream_name":"stdout","time":9282.018572764,"data":"[   9268s] ZAN W2019: 0 dates, step valid [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 0s\n"}
+,{"stream_name":"stdout","time":9282.458668104,"data":"[   9268s] ZAN S2019: 0 dates, step valid [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 0s\n"}
+,{"stream_name":"stderr","time":9329.570323656,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9329.570365606,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":9330.074319574,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9330.074366984,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":9330.079084294,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9330.079129244,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":9396.042514937,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9396.042560967,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":9396.056351237,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9396.056426066,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":9396.062090046,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9396.062133226,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":9470.782733067,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9470.782783457,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":9470.796557046,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9470.796605706,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":9470.801292206,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":9470.801338686,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":9719.18782032,"data":"[   9705s] ZAN W2020: 50 dates, step valid [0.0, 0.0, 0.961, 1.0, 1.0, 1.0, 1.0], 437s\n"}
+,{"stream_name":"stdout","time":10056.822076374,"data":"[  10042s] ZAN S2020: 79 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 338s\n"}
+,{"stream_name":"stderr","time":10165.890126341,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10165.890170721,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":10165.90510912,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10165.90514618,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":10165.91221734,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10165.91225684,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":10205.108297694,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10205.108352834,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":10205.125207423,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10205.125244003,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":10205.131398273,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10205.131426453,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":10243.616453819,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10243.616501879,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":10243.643105968,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10243.643140698,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":10243.649348338,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10243.649415938,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":10309.428552097,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10309.428596347,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":10309.506022355,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10309.506064615,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":10309.512011295,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10309.512036915,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":10416.108113107,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10416.108158657,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":10416.122746147,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10416.122796897,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":10416.129352337,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10416.129418517,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":10417.205183833,"data":"[  10403s] ZAN W2021: 84 dates, step valid [1.0, 1.0, 1.0, 0.999, 0.995, 1.0, 1.0], 360s\n"}
+,{"stream_name":"stderr","time":10601.118751356,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10601.118855036,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":10601.137360255,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10601.137444536,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":10601.143779606,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10601.143817055,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":10739.692051629,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10739.692110149,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":10739.705007589,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10739.705040659,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":10739.711788869,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10739.711817008,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":10782.412121467,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10782.412163388,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":10782.428209817,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10782.428244337,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":10782.435251586,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10782.435290626,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":10783.573485037,"data":"[  10769s] ZAN S2021: 78 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 366s\n"}
+,{"stream_name":"stderr","time":10853.899908098,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10853.899960258,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":10853.912291527,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10853.912335037,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":10853.919759677,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10853.919795357,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":10976.752681696,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10976.752725856,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":10976.771246835,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10976.771280196,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":10976.777895565,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":10976.777918725,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":11016.030596224,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":11016.030657004,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":11016.049276853,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":11016.049311383,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":11016.057093293,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":11016.057127493,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":11054.270928197,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":11054.270976097,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":11054.334985245,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":11054.335028975,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":11054.341688715,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":11054.341708585,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":11198.249500773,"data":"[  11184s] ZAN W2022: 87 dates, step valid [1.0, 1.0, 1.0, 0.999, 0.996, 1.0, 1.0], 415s\n"}
+,{"stream_name":"stderr","time":11485.431478001,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":11485.431552562,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":11485.453767091,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":11485.45380422,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":11485.46213212,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":11485.46215484,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":11626.633266817,"data":"[  11612s] ZAN S2022: 92 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 428s\n"}
+,{"stream_name":"stderr","time":11673.169673082,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":11673.169720402,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":11673.180828311,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":11673.180869761,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":11673.188021181,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":11673.188057231,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stderr","time":11873.192613603,"data":"/kaggle/src/script.py:202: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":11873.192664053,"data":"  med = np.nanmedian(st, axis=0)\n"}
+,{"stream_name":"stderr","time":11873.209460573,"data":"/kaggle/src/script.py:203: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":11873.209508322,"data":"  peak_nd = np.fmax(peak_nd, np.nanmax(nd, axis=0))\n"}
+,{"stream_name":"stderr","time":11873.217019322,"data":"/kaggle/src/script.py:204: RuntimeWarning: All-NaN slice encountered\n"}
+,{"stream_name":"stderr","time":11873.217061472,"data":"  peak_gc = np.fmax(peak_gc, np.nanmax(gc, axis=0))\n"}
+,{"stream_name":"stdout","time":12045.662427523,"data":"[  12031s] ZAN W2023: 95 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 419s\n"}
+,{"stream_name":"stdout","time":12528.897180857,"data":"[  12514s] ZAN W2025: 102 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 483s\n"}
+,{"stream_name":"stdout","time":12952.475075291,"data":"[  12938s] ZAN S2025: 95 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 424s\n"}
+,{"stream_name":"stdout","time":12955.851365318,"data":"MLL grid 834 x 516\n"}
+,{"stream_name":"stdout","time":13113.214337568,"data":"[  13099s] MLL S2023: 47 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 157s\n"}
+,{"stream_name":"stdout","time":13284.54071689,"data":"[  13270s] MLL W2024: 53 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 171s\n"}
+,{"stream_name":"stdout","time":13443.081497324,"data":"[  13429s] MLL S2024: 51 dates, step valid [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 159s\n"}
+,{"stream_name":"stdout","time":13443.086811064,"data":"DONE 13428.6 s; failed: None\n"}
+,{"stream_name":"stderr","time":13446.704248853,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":13446.704287603,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":13447.074592421,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":13447.074622361,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":13447.958188514,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":13449.128366348,"data":"[NbConvertApp] Writing 329436 bytes to __results__.html\n"}
+]

@@ -1,0 +1,44 @@
+[{"stream_name":"stdout","time":26.788723194,"data":"FAO_DOWNLOAD {\"WAPOR-3.L3-CROP-TYPE.EGY-SGZ.2023.GS2.tif\": 200, \"WAPOR-3.L3-CROP-TYPE.EGY-SGZ.2024.GS1.tif\": 200, \"WAPOR-3.L3-CROP-TYPE.EGY-SGZ.2024.GS2.tif\": 200, \"WAPOR-3.L3-CROP-TYPE.EGY-ZAN.2023.GS2.tif\": 404, \"WAPOR-3.L3-CROP-TYPE.EGY-ZAN.2024.GS1.tif\": 200, \"WAPOR-3.L3-CROP-TYPE.EGY-ZAN.2024.GS2.tif\": 200, \"WAPOR-3.L3-CROP-TYPE.EGY-MLL.2023.GS2.tif\": 200, \"WAPOR-3.L3-CROP-TYPE.EGY-MLL.2024.GS1.tif\": 200, \"WAPOR-3.L3-CROP-TYPE.EGY-MLL.2024.GS2.tif\": 200}\n"}
+,{"stream_name":"stdout","time":28.563969547,"data":"\n"}
+,{"stream_name":"stdout","time":28.564007476,"data":"=== SGZ res=(8.983152841195159e-05, 8.983152841195125e-05) crs=EPSG:4326 shape=(3671, 2370)\n"}
+,{"stream_name":"stdout","time":28.79351748,"data":"winter 2023-24 px: {'wheat': 1501577, 'sugarbeet': 814405, 'flax': 207922, 'clover': 568708, 'beans': 157906, 'veg': 18065, 'orchard': 131567, 'medicinal': 705682, 'bare': 17723, 'water': 516130, 'built': 370212, 255: 3690373}\n"}
+,{"stream_name":"stdout","time":29.035076292,"data":"summer 2024 px: {'rice': 2492861, 'maize': 147612, 'cotton': 581774, 'veg': 101005, 'orchard': 8414, 'bare': 212237, 'water': 3419, 'built': 198474, 255: 4954474}\n"}
+,{"stream_name":"stdout","time":29.035120825,"data":"winter 2023-24 -\u003e summer 2024 (px):\n"}
+,{"stream_name":"stdout","time":29.088022642,"data":"  wheat     -\u003e {'rice': 1042097, 'maize': 66313, 'cotton': 209756}\n"}
+,{"stream_name":"stdout","time":29.122541483,"data":"  clover    -\u003e {'rice': 377406, 'maize': 36351, 'cotton': 88251}\n"}
+,{"stream_name":"stdout","time":29.16732313,"data":"  sugarbeet -\u003e {'rice': 558059, 'maize': 13584, 'cotton': 159501}\n"}
+,{"stream_name":"stdout","time":29.201231727,"data":"  beans     -\u003e {'rice': 87818, 'maize': 3850, 'cotton': 32364}\n"}
+,{"stream_name":"stdout","time":29.22373655,"data":"summer 2023 -\u003e winter 2023-24 (px):\n"}
+,{"stream_name":"stdout","time":29.266356247,"data":"  rice    -\u003e {'wheat': 870519, 'clover': 396181, 'sugarbeet': 593814, 'beans': 91785}\n"}
+,{"stream_name":"stdout","time":29.324826959,"data":"  maize   -\u003e {'wheat': 121923, 'clover': 64627, 'sugarbeet': 48094, 'beans': 11534}\n"}
+,{"stream_name":"stdout","time":29.36784389,"data":"  cotton  -\u003e {'wheat': 349404, 'clover': 69332, 'sugarbeet': 120283, 'beans': 34591}\n"}
+,{"stream_name":"stdout","time":29.405544865,"data":"\n"}
+,{"stream_name":"stdout","time":29.405593283,"data":"=== ZAN res=(8.983152841195211e-05, 8.983152841195253e-05) crs=EPSG:4326 shape=(3738, 4461)\n"}
+,{"stream_name":"stdout","time":29.822720134,"data":"winter 2023-24 px: {'wheat': 3534779, 'sugarbeet': 50219, 'clover': 1700051, 'veg': 408189, 'orchard': 489560, 'water': 58246, 'built': 1011664, 255: 9422510}\n"}
+,{"stream_name":"stdout","time":30.283000584,"data":"summer 2024 px: {'rice': 3550010, 'maize': 1456257, 'cotton': 90632, 'veg': 413768, 'orchard': 400197, 11: 1697, 'bare': 11926, 'water': 88159, 'built': 982453, 'roads': 259182, 255: 9420937}\n"}
+,{"stream_name":"stdout","time":30.28312882,"data":"winter 2023-24 -\u003e summer 2024 (px):\n"}
+,{"stream_name":"stdout","time":30.345674988,"data":"  wheat     -\u003e {'rice': 2250664, 'maize': 696543, 'cotton': 64867}\n"}
+,{"stream_name":"stdout","time":30.422881659,"data":"  clover    -\u003e {'rice': 950159, 'maize': 454015, 'cotton': 16187}\n"}
+,{"stream_name":"stdout","time":30.486258062,"data":"  sugarbeet -\u003e {'rice': 38043, 'maize': 1969, 'cotton': 1501}\n"}
+,{"stream_name":"stdout","time":30.562021906,"data":"  beans     -\u003e {'rice': 0, 'maize': 0, 'cotton': 0}\n"}
+,{"stream_name":"stdout","time":30.576876572,"data":"\n"}
+,{"stream_name":"stdout","time":30.576916421,"data":"=== MLL res=(8.983152841195134e-05, 8.983152841195089e-05) crs=EPSG:4326 shape=(2476, 1687)\n"}
+,{"stream_name":"stdout","time":30.6820083,"data":"winter 2023-24 px: {'wheat': 894191, 'sugarbeet': 145964, 'clover': 294024, 5: 199164, 'beans': 44502, 'veg': 24138, 'orchard': 19051, 'medicinal': 136523, 'water': 107412, 'built': 170525, 15: 388331, 255: 1753187}\n"}
+,{"stream_name":"stdout","time":30.791668787,"data":"summer 2024 px: {'maize': 1114143, 4: 74, 5: 233555, 6: 205772, 'veg': 232628, 9: 25642, 10: 3304, 'water': 120721, 'built': 162692, 'roads': 325294, 255: 1753187}\n"}
+,{"stream_name":"stdout","time":30.791714351,"data":"winter 2023-24 -\u003e summer 2024 (px):\n"}
+,{"stream_name":"stdout","time":30.805806511,"data":"  wheat     -\u003e {'rice': 0, 'maize': 512204, 'cotton': 0}\n"}
+,{"stream_name":"stdout","time":30.825944901,"data":"  clover    -\u003e {'rice': 0, 'maize': 180156, 'cotton': 0}\n"}
+,{"stream_name":"stdout","time":30.838528021,"data":"  sugarbeet -\u003e {'rice': 0, 'maize': 72025, 'cotton': 0}\n"}
+,{"stream_name":"stdout","time":30.851732897,"data":"  beans     -\u003e {'rice': 0, 'maize': 19716, 'cotton': 0}\n"}
+,{"stream_name":"stdout","time":30.864639366,"data":"summer 2023 -\u003e winter 2023-24 (px):\n"}
+,{"stream_name":"stdout","time":30.882085887,"data":"  rice    -\u003e {'wheat': 0, 'clover': 0, 'sugarbeet': 0, 'beans': 0}\n"}
+,{"stream_name":"stdout","time":30.899004042,"data":"  maize   -\u003e {'wheat': 521783, 'clover': 198355, 'sugarbeet': 82008, 'beans': 20962}\n"}
+,{"stream_name":"stdout","time":30.917028403,"data":"  cotton  -\u003e {'wheat': 0, 'clover': 0, 'sugarbeet': 0, 'beans': 0}\n"}
+,{"stream_name":"stdout","time":112.763550808,"data":"HLS_CLIP {\"assets\": 60, \"items\": 20, \"seconds\": 77.0, \"s_per_asset\": 1.28, \"pixels_per_asset\": 293287}\n"}
+,{"stream_name":"stderr","time":115.653838162,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":115.653895368,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":116.062737822,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":116.062769801,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":117.163790339,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":118.466278372,"data":"[NbConvertApp] Writing 297559 bytes to __results__.html\n"}
+]

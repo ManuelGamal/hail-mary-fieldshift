@@ -1,0 +1,8 @@
+,pred_rice,pred_maize,pred_cotton,pred_veg,pred_orchard,pred_other,pred_nonag
+true_rice,0,0,0,0,0,0,0
+true_maize,44021,7524,41925,1128,653,4291,17552
+true_cotton,0,0,0,0,0,0,0
+true_veg,570,67,755,48,1,104,355
+true_orchard,109,27,66,17,1,5,128
+true_other,29,2,32,0,2,13,39
+true_nonag,9061,1967,5593,362,66,4641,31470

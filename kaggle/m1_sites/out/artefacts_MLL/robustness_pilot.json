@@ -1,0 +1,19 @@
+{
+ "MLL:clover-vs-wheat>maize:peak_ndvi:ols": {
+  "placebo_prev_summer_peak_ndvi": {
+   "estimate": -0.010344703571948402,
+   "ci": [
+    -0.014154624181516475,
+    -0.006534782962380329
+   ],
+   "pass": false
+  },
+  "pending": [
+   "permutation",
+   "overlap",
+   "sensitivity",
+   "misclass_propagation",
+   "direction_check"
+  ]
+ }
+}

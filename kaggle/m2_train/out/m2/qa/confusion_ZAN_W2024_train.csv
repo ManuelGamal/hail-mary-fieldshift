@@ -1,0 +1,10 @@
+,pred_wheat,pred_sugarbeet,pred_flax,pred_clover,pred_beans,pred_veg,pred_orchard,pred_other,pred_nonag
+true_wheat,184048,71,0,86573,0,1081,3994,0,1337
+true_sugarbeet,3632,113,0,282,0,72,11,0,1
+true_flax,0,0,0,0,0,0,0,0,0
+true_clover,54476,28,0,72231,0,433,1031,0,1578
+true_beans,0,0,0,0,0,0,0,0,0
+true_veg,10777,3,0,6405,0,1599,933,0,894
+true_orchard,6870,0,0,10728,0,243,7200,0,1169
+true_other,0,0,0,0,0,0,0,0,0
+true_nonag,6002,0,0,25188,0,742,1815,0,51177

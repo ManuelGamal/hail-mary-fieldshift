@@ -1,0 +1,182 @@
+{
+ "site": "SGZ",
+ "timings_s": {
+  "labels": 1.8,
+  "hls_S2023": 65.8,
+  "hls_W2024": 20.5,
+  "hls_S2024": 21.2,
+  "covariates": 58.5,
+  "assemble": 0.5,
+  "pilot_effects": 1.3
+ },
+ "attrition": {
+  "grid_blocks": 95763,
+  "cropland_frac>=0.6 (W2024)": 34682,
+  "S2023 purity>=0.6": 23485,
+  "W2024 purity>=0.6": 15485,
+  "S2024 purity>=0.6": 25991,
+  "analysis (3 seasons labelled, n_clear S2024>=5)": 9845
+ },
+ "notes": [
+  "et_season_mm, lst_mean_c, esi_mean null: ECOSTRESS needs an Earthdata token (Kaggle Secret).",
+  "smap_sm_mean, imerg_mm null in v1: NSIDC/GES DISC need Earthdata login; regional context only.",
+  "salinity_index = mean sqrt(blue*red) over clear bare-soil looks (NDVI<0.25) in S2023 (pre-treatment); weak proxy.",
+  "rice_zone and governorate are governorate-level constants for SGZ.",
+  "ndvi_auc = mean clear-sky NDVI x season length in days (NDVI-days)."
+ ],
+ "hls": {
+  "S2023": {
+   "items": 185,
+   "dates": 88
+  },
+  "W2024": {
+   "items": 178,
+   "dates": 89
+  },
+  "S2024": {
+   "items": 192,
+   "dates": 91
+  }
+ },
+ "osm_fclass_counts": {
+  "canal": 68,
+  "drain": 4,
+  "river": 1
+ },
+ "osm": {
+  "canal_lines": 69,
+  "drain_lines": 4,
+  "coast_lines": 1
+ },
+ "power_rs_units": "MJ/m^2/day",
+ "power": {
+  "lat": 31.202328182079512,
+  "lon": 31.026555838159503,
+  "S2023": {
+   "et0_mm": 1176.3459927817069,
+   "heat_days_gt35": 130
+  },
+  "W2024": {
+   "et0_mm": 699.4669462624425,
+   "heat_days_gt35": 8
+  },
+  "S2024": {
+   "et0_mm": 1200.6348674330252,
+   "heat_days_gt35": 131
+  }
+ },
+ "pilot_covariates_dropped": {},
+ "peak_ndvi_by_crop": {
+  "S2023": {
+   "cotton": {
+    "count": 2567.0,
+    "25%": 0.798,
+    "50%": 0.825,
+    "75%": 0.848
+   },
+   "maize": {
+    "count": 153.0,
+    "25%": 0.815,
+    "50%": 0.834,
+    "75%": 0.846
+   },
+   "nonag": {
+    "count": 829.0,
+    "25%": 0.543,
+    "50%": 0.662,
+    "75%": 0.745
+   },
+   "orchard": {
+    "count": 6.0,
+    "25%": 0.658,
+    "50%": 0.682,
+    "75%": 0.704
+   },
+   "rice": {
+    "count": 19928.0,
+    "25%": 0.835,
+    "50%": 0.864,
+    "75%": 0.884
+   },
+   "veg": {
+    "count": 2.0,
+    "25%": 0.837,
+    "50%": 0.858,
+    "75%": 0.878
+   }
+  },
+  "W2024": {
+   "beans": {
+    "count": 139.0,
+    "25%": 0.858,
+    "50%": 0.879,
+    "75%": 0.891
+   },
+   "clover": {
+    "count": 1530.0,
+    "25%": 0.877,
+    "50%": 0.893,
+    "75%": 0.904
+   },
+   "flax": {
+    "count": 323.0,
+    "25%": 0.89,
+    "50%": 0.903,
+    "75%": 0.911
+   },
+   "sugarbeet": {
+    "count": 4702.0,
+    "25%": 0.884,
+    "50%": 0.897,
+    "75%": 0.907
+   },
+   "veg": {
+    "count": 19.0,
+    "25%": 0.733,
+    "50%": 0.767,
+    "75%": 0.804
+   },
+   "wheat": {
+    "count": 8772.0,
+    "25%": 0.873,
+    "50%": 0.893,
+    "75%": 0.906
+   }
+  },
+  "S2024": {
+   "cotton": {
+    "count": 2322.0,
+    "25%": 0.789,
+    "50%": 0.818,
+    "75%": 0.842
+   },
+   "maize": {
+    "count": 262.0,
+    "25%": 0.78,
+    "50%": 0.808,
+    "75%": 0.831
+   },
+   "nonag": {
+    "count": 712.0,
+    "25%": 0.65,
+    "50%": 0.755,
+    "75%": 0.806
+   },
+   "rice": {
+    "count": 22643.0,
+    "25%": 0.816,
+    "50%": 0.851,
+    "75%": 0.876
+   },
+   "veg": {
+    "count": 52.0,
+    "25%": 0.756,
+    "50%": 0.786,
+    "75%": 0.813
+   }
+  }
+ },
+ "n_clear_obs_S2024_share_ge5": 1.0,
+ "validation_problems": [],
+ "total_runtime_s": 170.3
+}

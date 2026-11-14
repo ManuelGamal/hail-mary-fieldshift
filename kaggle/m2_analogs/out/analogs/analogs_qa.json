@@ -1,0 +1,9 @@
+{
+ "rows": 1015161,
+ "query_blocks": 104724,
+ "blocks_considered": 105255,
+ "coverage": 0.995,
+ "sanity_same_stratum_share": 1.0,
+ "sanity_mean_abs_delev_m": 0.64,
+ "median_similarity": 0.809
+}

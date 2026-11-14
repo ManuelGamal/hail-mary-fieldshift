@@ -1,0 +1,15 @@
+{
+ "timings_s": {
+  "phenology": 40.4,
+  "pheno_wp_effects": 43.6,
+  "heterogeneity": 139.9,
+  "done": 233.7
+ },
+ "n_blocks_meta": 94834,
+ "pheno_rows": 935120,
+ "pheno_censored_share": {
+  "greenup": 0.054,
+  "senesce": 0.158
+ },
+ "total_runtime_s": 233.7
+}

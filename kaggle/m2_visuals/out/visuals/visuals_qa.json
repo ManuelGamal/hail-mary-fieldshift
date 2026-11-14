@@ -1,0 +1,18 @@
+{
+ "window_px": [
+  0,
+  90,
+  500
+ ],
+ "flip_frames": 17,
+ "calendar_years": [
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "analogs_error": "Traceback (most recent call last):\n  File \"/kaggle/src/script.py\", line 200, in <module>\n    A[inwin]\n    ~~~~~~~~\n    ...<2 lines>...\n    .sort_values(ascending=False)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    .index[0]\n    ~~~~~~^^^\n  File \"/usr/local/lib/python3.13/dist-packages/pandas/core/indexes/base.py\", line 5401, in __getitem__\n    return getitem(key)\nIndexError: index 0 is out of bounds for axis 0 with size 0\n"
+}

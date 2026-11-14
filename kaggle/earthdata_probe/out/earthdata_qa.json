@@ -1,0 +1,785 @@
+{
+ "hls": {
+  "SGZ_W2016": {
+   "items": 74,
+   "dates": 41,
+   "step_valid_frac": [
+    0.975,
+    0.993,
+    0.999,
+    0.999,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "median_n_clear": 22.0,
+   "source": "LP DAAC"
+  },
+  "SGZ_S2016": {
+   "items": 84,
+   "dates": 44,
+   "step_valid_frac": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "median_n_clear": 24.0,
+   "source": "LP DAAC"
+  },
+  "SGZ_W2017": {
+   "items": 88,
+   "dates": 46,
+   "step_valid_frac": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.992
+   ],
+   "median_n_clear": 24.0,
+   "source": "LP DAAC"
+  },
+  "SGZ_S2017": {
+   "items": 121,
+   "dates": 59,
+   "step_valid_frac": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "median_n_clear": 40.0,
+   "source": "LP DAAC"
+  },
+  "SGZ_W2018": {
+   "items": 135,
+   "dates": 69,
+   "step_valid_frac": [
+    1.0,
+    1.0,
+    1.0,
+    0.999,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "median_n_clear": 43.0,
+   "source": "LP DAAC"
+  },
+  "SGZ_S2018": {
+   "items": 153,
+   "dates": 74,
+   "step_valid_frac": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "median_n_clear": 47.0,
+   "source": "LP DAAC"
+  },
+  "SGZ_W2019": {
+   "items": 160,
+   "dates": 77,
+   "step_valid_frac": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "median_n_clear": 51.0,
+   "source": "LP DAAC"
+  },
+  "SGZ_S2019": {
+   "items": 155,
+   "dates": 74,
+   "step_valid_frac": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "median_n_clear": 51.0,
+   "source": "LP DAAC"
+  },
+  "SGZ_W2020": {
+   "items": 144,
+   "dates": 71,
+   "step_valid_frac": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.999,
+    1.0,
+    1.0
+   ],
+   "median_n_clear": 40.0,
+   "source": "LP DAAC"
+  },
+  "ZAN_W2016": {
+   "items": 85,
+   "dates": 44,
+   "step_valid_frac": [
+    0.571,
+    1.0,
+    1.0,
+    0.999,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "median_n_clear": 20.0,
+   "source": "LP DAAC"
+  },
+  "ZAN_S2016": {
+   "items": 98,
+   "dates": 49,
+   "step_valid_frac": [
+    1.0,
+    1.0,
+    1.0,
+    0.992,
+    0.998,
+    0.968
+   ],
+   "median_n_clear": 18.0,
+   "source": "LP DAAC"
+  },
+  "ZAN_W2017": {
+   "items": 94,
+   "dates": 51,
+   "step_valid_frac": [
+    1.0,
+    0.998,
+    1.0,
+    1.0,
+    0.78,
+    0.995,
+    1.0
+   ],
+   "median_n_clear": 19.0,
+   "source": "LP DAAC"
+  },
+  "ZAN_S2017": {
+   "items": 122,
+   "dates": 65,
+   "step_valid_frac": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "median_n_clear": 29.0,
+   "source": "LP DAAC"
+  },
+  "ZAN_W2018": {
+   "items": 124,
+   "dates": 72,
+   "step_valid_frac": [
+    1.0,
+    1.0,
+    1.0,
+    0.855,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "median_n_clear": 27.0,
+   "source": "LP DAAC"
+  },
+  "ZAN_S2018": {
+   "items": 143,
+   "dates": 78,
+   "step_valid_frac": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "median_n_clear": 31.0,
+   "source": "LP DAAC"
+  },
+  "ZAN_W2019": {
+   "items": 152,
+   "dates": 80,
+   "step_valid_frac": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.931,
+    1.0
+   ],
+   "median_n_clear": 35.0,
+   "source": "LP DAAC"
+  },
+  "ZAN_S2019": {
+   "items": 147,
+   "dates": 78,
+   "step_valid_frac": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "median_n_clear": 36.0,
+   "source": "LP DAAC"
+  },
+  "ZAN_W2020": {
+   "items": 156,
+   "dates": 77,
+   "step_valid_frac": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "median_n_clear": 29.0,
+   "source": "LP DAAC"
+  }
+ },
+ "eco": {
+  "SGZ_S2018": {
+   "et": {
+    "granules": 24,
+    "read": 24
+   },
+   "lst": {
+    "granules": 82,
+    "read": 82
+   },
+   "esi": {
+    "granules": 24,
+    "read": 24
+   }
+  },
+  "SGZ_S2019": {
+   "et": {
+    "granules": 18,
+    "read": 18
+   },
+   "lst": {
+    "granules": 41,
+    "read": 41
+   },
+   "esi": {
+    "granules": 18,
+    "read": 18
+   }
+  },
+  "SGZ_S2020": {
+   "et": {
+    "granules": 14,
+    "read": 14
+   },
+   "lst": {
+    "granules": 40,
+    "read": 40
+   },
+   "esi": {
+    "granules": 14,
+    "read": 14
+   }
+  },
+  "SGZ_S2021": {
+   "et": {
+    "granules": 21,
+    "read": 21
+   },
+   "lst": {
+    "granules": 68,
+    "read": 68
+   },
+   "esi": {
+    "granules": 21,
+    "read": 21
+   }
+  },
+  "SGZ_S2022": {
+   "et": {
+    "granules": 36,
+    "read": 36
+   },
+   "lst": {
+    "granules": 76,
+    "read": 76
+   },
+   "esi": {
+    "granules": 36,
+    "read": 36
+   }
+  },
+  "SGZ_S2023": {
+   "et": {
+    "granules": 40,
+    "read": 40
+   },
+   "lst": {
+    "granules": 111,
+    "read": 111
+   },
+   "esi": {
+    "granules": 40,
+    "read": 40
+   }
+  },
+  "SGZ_S2024": {
+   "et": {
+    "granules": 6,
+    "read": 6
+   },
+   "lst": {
+    "granules": 60,
+    "read": 60
+   },
+   "esi": {
+    "granules": 6,
+    "read": 6
+   }
+  },
+  "SGZ_S2025": {
+   "et": {
+    "granules": 32,
+    "read": 32
+   },
+   "lst": {
+    "granules": 68,
+    "read": 68
+   },
+   "esi": {
+    "granules": 32,
+    "read": 32
+   }
+  },
+  "SGZ_W2019": {
+   "et": {
+    "granules": 0,
+    "read": 0
+   },
+   "lst": {
+    "granules": 5,
+    "read": 5
+   },
+   "esi": {
+    "granules": 0,
+    "read": 0
+   }
+  },
+  "SGZ_W2020": {
+   "et": {
+    "granules": 7,
+    "read": 7
+   },
+   "lst": {
+    "granules": 62,
+    "read": 62
+   },
+   "esi": {
+    "granules": 7,
+    "read": 7
+   }
+  },
+  "SGZ_W2021": {
+   "et": {
+    "granules": 11,
+    "read": 11
+   },
+   "lst": {
+    "granules": 80,
+    "read": 80
+   },
+   "esi": {
+    "granules": 11,
+    "read": 11
+   }
+  },
+  "SGZ_W2022": {
+   "et": {
+    "granules": 13,
+    "read": 13
+   },
+   "lst": {
+    "granules": 53,
+    "read": 53
+   },
+   "esi": {
+    "granules": 13,
+    "read": 13
+   }
+  },
+  "SGZ_W2023": {
+   "et": {
+    "granules": 51,
+    "read": 51
+   },
+   "lst": {
+    "granules": 190,
+    "read": 190
+   },
+   "esi": {
+    "granules": 51,
+    "read": 51
+   }
+  },
+  "SGZ_W2024": {
+   "et": {
+    "granules": 14,
+    "read": 14
+   },
+   "lst": {
+    "granules": 63,
+    "read": 63
+   },
+   "esi": {
+    "granules": 14,
+    "read": 14
+   }
+  },
+  "SGZ_W2025": {
+   "et": {
+    "granules": 15,
+    "read": 15
+   },
+   "lst": {
+    "granules": 80,
+    "read": 80
+   },
+   "esi": {
+    "granules": 15,
+    "read": 15
+   }
+  },
+  "ZAN_S2018": {
+   "et": {
+    "granules": 24,
+    "read": 24
+   },
+   "lst": {
+    "granules": 86,
+    "read": 86
+   },
+   "esi": {
+    "granules": 24,
+    "read": 24
+   }
+  },
+  "ZAN_S2019": {
+   "et": {
+    "granules": 20,
+    "read": 20
+   },
+   "lst": {
+    "granules": 53,
+    "read": 53
+   },
+   "esi": {
+    "granules": 20,
+    "read": 20
+   }
+  },
+  "ZAN_S2020": {
+   "et": {
+    "granules": 17,
+    "read": 17
+   },
+   "lst": {
+    "granules": 52,
+    "read": 52
+   },
+   "esi": {
+    "granules": 17,
+    "read": 17
+   }
+  },
+  "ZAN_S2021": {
+   "et": {
+    "granules": 20,
+    "read": 20
+   },
+   "lst": {
+    "granules": 73,
+    "read": 73
+   },
+   "esi": {
+    "granules": 20,
+    "read": 20
+   }
+  },
+  "ZAN_S2022": {
+   "et": {
+    "granules": 41,
+    "read": 41
+   },
+   "lst": {
+    "granules": 85,
+    "read": 85
+   },
+   "esi": {
+    "granules": 41,
+    "read": 41
+   }
+  },
+  "ZAN_S2023": {
+   "et": {
+    "granules": 54,
+    "read": 54
+   },
+   "lst": {
+    "granules": 126,
+    "read": 126
+   },
+   "esi": {
+    "granules": 54,
+    "read": 54
+   }
+  },
+  "ZAN_S2024": {
+   "et": {
+    "granules": 9,
+    "read": 9
+   },
+   "lst": {
+    "granules": 62,
+    "read": 62
+   },
+   "esi": {
+    "granules": 9,
+    "read": 9
+   }
+  },
+  "ZAN_S2025": {
+   "et": {
+    "granules": 40,
+    "read": 40
+   },
+   "lst": {
+    "granules": 82,
+    "read": 82
+   },
+   "esi": {
+    "granules": 40,
+    "read": 40
+   }
+  },
+  "ZAN_W2019": {
+   "et": {
+    "granules": 0,
+    "read": 0
+   },
+   "lst": {
+    "granules": 6,
+    "read": 6
+   },
+   "esi": {
+    "granules": 0,
+    "read": 0
+   }
+  },
+  "ZAN_W2020": {
+   "et": {
+    "granules": 9,
+    "read": 9
+   },
+   "lst": {
+    "granules": 69,
+    "read": 69
+   },
+   "esi": {
+    "granules": 9,
+    "read": 9
+   }
+  },
+  "ZAN_W2021": {
+   "et": {
+    "granules": 16,
+    "read": 16
+   },
+   "lst": {
+    "granules": 101,
+    "read": 101
+   },
+   "esi": {
+    "granules": 16,
+    "read": 16
+   }
+  },
+  "ZAN_W2022": {
+   "et": {
+    "granules": 15,
+    "read": 15
+   },
+   "lst": {
+    "granules": 57,
+    "read": 57
+   },
+   "esi": {
+    "granules": 15,
+    "read": 15
+   }
+  },
+  "ZAN_W2023": {
+   "et": {
+    "granules": 67,
+    "read": 67
+   },
+   "lst": {
+    "granules": 189,
+    "read": 189
+   },
+   "esi": {
+    "granules": 67,
+    "read": 67
+   }
+  },
+  "ZAN_W2024": {
+   "et": {
+    "granules": 13,
+    "read": 13
+   },
+   "lst": {
+    "granules": 72,
+    "read": 72
+   },
+   "esi": {
+    "granules": 13,
+    "read": 13
+   }
+  },
+  "ZAN_W2025": {
+   "et": {
+    "granules": 22,
+    "read": 22
+   },
+   "lst": {
+    "granules": 93,
+    "read": 93
+   },
+   "esi": {
+    "granules": 22,
+    "read": 22
+   }
+  },
+  "MLL_S2023": {
+   "et": {
+    "granules": 8,
+    "read": 8
+   },
+   "lst": {
+    "granules": 39,
+    "read": 39
+   },
+   "esi": {
+    "granules": 8,
+    "read": 8
+   }
+  },
+  "MLL_W2024": {
+   "et": {
+    "granules": 0,
+    "read": 0
+   },
+   "lst": {
+    "granules": 26,
+    "read": 26
+   },
+   "esi": {
+    "granules": 0,
+    "read": 0
+   }
+  },
+  "MLL_S2024": {
+   "et": {
+    "granules": 2,
+    "read": 2
+   },
+   "lst": {
+    "granules": 18,
+    "read": 18
+   },
+   "esi": {
+    "granules": 2,
+    "read": 2
+   }
+  }
+ },
+ "timings_s": {
+  "eco_SGZ_S2018": 57.4,
+  "eco_SGZ_S2019": 34.6,
+  "eco_SGZ_S2020": 26.2,
+  "eco_SGZ_S2021": 48.7,
+  "eco_SGZ_S2022": 52.5,
+  "eco_SGZ_S2023": 63.2,
+  "eco_SGZ_S2024": 30.7,
+  "eco_SGZ_S2025": 48.7,
+  "eco_SGZ_W2019": 5.6,
+  "eco_SGZ_W2020": 30.4,
+  "eco_SGZ_W2021": 42.7,
+  "eco_SGZ_W2022": 29.9,
+  "eco_SGZ_W2023": 88.5,
+  "eco_SGZ_W2024": 30.5,
+  "eco_SGZ_W2025": 36.4,
+  "eco_ZAN_S2018": 62.3,
+  "eco_ZAN_S2019": 39.0,
+  "eco_ZAN_S2020": 39.0,
+  "eco_ZAN_S2021": 43.4,
+  "eco_ZAN_S2022": 56.3,
+  "eco_ZAN_S2023": 86.9,
+  "eco_ZAN_S2024": 39.1,
+  "eco_ZAN_S2025": 56.4,
+  "eco_ZAN_W2019": 5.6,
+  "eco_ZAN_W2020": 36.0,
+  "eco_ZAN_W2021": 45.0,
+  "eco_ZAN_W2022": 32.2,
+  "eco_ZAN_W2023": 99.6,
+  "eco_ZAN_W2024": 35.1,
+  "eco_ZAN_W2025": 48.3,
+  "eco_MLL_S2023": 36.6,
+  "eco_MLL_W2024": 10.4,
+  "eco_MLL_S2024": 19.6,
+  "hls_SGZ_W2016": 372.5,
+  "hls_SGZ_S2016": 320.6,
+  "hls_SGZ_W2017": 359.8,
+  "hls_SGZ_S2017": 402.3,
+  "hls_SGZ_W2018": 429.6,
+  "hls_SGZ_S2018": 419.6,
+  "hls_SGZ_W2019": 483.6,
+  "hls_SGZ_S2019": 421.9,
+  "hls_SGZ_W2020": 486.3,
+  "hls_ZAN_W2016": 361.7,
+  "hls_ZAN_S2016": 389.9,
+  "hls_ZAN_W2017": 413.1,
+  "hls_ZAN_S2017": 374.1,
+  "hls_ZAN_W2018": 442.5,
+  "hls_ZAN_S2018": 460.9,
+  "hls_ZAN_W2019": 526.2,
+  "hls_ZAN_S2019": 455.6,
+  "hls_ZAN_W2020": 552.6
+ },
+ "failed": {},
+ "total_runtime_s": 9090.5
+}

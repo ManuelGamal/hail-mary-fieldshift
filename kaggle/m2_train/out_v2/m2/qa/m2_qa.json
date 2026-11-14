@@ -1,0 +1,412 @@
+{
+ "timings_s": {
+  "labels": 13.1,
+  "load_train": 4.4,
+  "train_prithvi": 896.7,
+  "infer_prithvi": 193.4,
+  "lightgbm": 5557.5,
+  "eval": 0.3,
+  "artefacts": 25.5,
+  "switcher_fe": 27.4
+ },
+ "notes": [],
+ "seasons_skipped_low_coverage": {
+  "ZAN_W2016": [
+   0.571,
+   1.0,
+   1.0,
+   0.999,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "ZAN_W2017": [
+   1.0,
+   0.998,
+   1.0,
+   1.0,
+   0.78,
+   0.995,
+   1.0
+  ],
+  "ZAN_W2018": [
+   1.0,
+   1.0,
+   1.0,
+   0.855,
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "season_source": {
+  "SGZ_S2023": "planetary_computer",
+  "SGZ_W2024": "planetary_computer",
+  "SGZ_S2024": "planetary_computer",
+  "SGZ_W2016": "lpdaac",
+  "SGZ_S2016": "lpdaac",
+  "SGZ_W2017": "lpdaac",
+  "SGZ_S2017": "lpdaac",
+  "SGZ_W2018": "lpdaac",
+  "SGZ_S2018": "lpdaac",
+  "SGZ_W2019": "lpdaac",
+  "SGZ_S2019": "lpdaac",
+  "SGZ_W2020": "lpdaac",
+  "SGZ_S2020": "planetary_computer",
+  "SGZ_W2021": "planetary_computer",
+  "SGZ_S2021": "planetary_computer",
+  "SGZ_W2022": "planetary_computer",
+  "SGZ_S2022": "planetary_computer",
+  "SGZ_W2023": "planetary_computer",
+  "SGZ_W2025": "planetary_computer",
+  "SGZ_S2025": "planetary_computer",
+  "ZAN_S2023": "planetary_computer",
+  "ZAN_W2024": "planetary_computer",
+  "ZAN_S2024": "planetary_computer",
+  "ZAN_S2016": "lpdaac",
+  "ZAN_S2017": "lpdaac",
+  "ZAN_S2018": "lpdaac",
+  "ZAN_W2019": "lpdaac",
+  "ZAN_S2019": "lpdaac",
+  "ZAN_W2020": "lpdaac",
+  "ZAN_S2020": "planetary_computer",
+  "ZAN_W2021": "planetary_computer",
+  "ZAN_S2021": "planetary_computer",
+  "ZAN_W2022": "planetary_computer",
+  "ZAN_S2022": "planetary_computer",
+  "ZAN_W2023": "planetary_computer",
+  "ZAN_W2025": "planetary_computer",
+  "ZAN_S2025": "planetary_computer",
+  "MLL_S2023": "planetary_computer",
+  "MLL_W2024": "planetary_computer",
+  "MLL_S2024": "planetary_computer"
+ },
+ "eco_seasons": [
+  "MLL_S2023",
+  "MLL_S2024",
+  "MLL_W2024",
+  "SGZ_S2018",
+  "SGZ_S2019",
+  "SGZ_S2020",
+  "SGZ_S2021",
+  "SGZ_S2022",
+  "SGZ_S2023",
+  "SGZ_S2024",
+  "SGZ_S2025",
+  "SGZ_W2019",
+  "SGZ_W2020",
+  "SGZ_W2021",
+  "SGZ_W2022",
+  "SGZ_W2023",
+  "SGZ_W2024",
+  "SGZ_W2025",
+  "ZAN_S2018",
+  "ZAN_S2019",
+  "ZAN_S2020",
+  "ZAN_S2021",
+  "ZAN_S2022",
+  "ZAN_S2023",
+  "ZAN_S2024",
+  "ZAN_S2025",
+  "ZAN_W2019",
+  "ZAN_W2020",
+  "ZAN_W2021",
+  "ZAN_W2022",
+  "ZAN_W2023",
+  "ZAN_W2024",
+  "ZAN_W2025"
+ ],
+ "label_px": {
+  "SGZ_S2023": 476792,
+  "SGZ_W2024": 476792,
+  "SGZ_S2024": 390945,
+  "ZAN_W2024": 694264,
+  "ZAN_S2024": 694337,
+  "MLL_S2023": 172624,
+  "MLL_W2024": 179928,
+  "MLL_S2024": 197176
+ },
+ "prithvi_load": {
+  "missing": [
+   "pos_embed"
+  ],
+  "unexpected": []
+ },
+ "train_history": [
+  {
+   "step": 150,
+   "train_loss": 1.5328,
+   "val_loss": 1.4628
+  },
+  {
+   "step": 300,
+   "train_loss": 1.2751,
+   "val_loss": 1.4276
+  },
+  {
+   "step": 450,
+   "train_loss": 1.2257,
+   "val_loss": 1.3384
+  },
+  {
+   "step": 600,
+   "train_loss": 1.2585,
+   "val_loss": 1.2834
+  },
+  {
+   "step": 750,
+   "train_loss": 1.2224,
+   "val_loss": 1.2584
+  },
+  {
+   "step": 900,
+   "train_loss": 1.1653,
+   "val_loss": 1.2767
+  },
+  {
+   "step": 1050,
+   "train_loss": 1.1704,
+   "val_loss": 1.2375
+  },
+  {
+   "step": 1200,
+   "train_loss": 1.1186,
+   "val_loss": 1.2629
+  },
+  {
+   "step": 1350,
+   "train_loss": 1.1848,
+   "val_loss": 1.2435
+  },
+  {
+   "step": 1500,
+   "train_loss": 1.1414,
+   "val_loss": 1.2732
+  },
+  {
+   "step": 1650,
+   "train_loss": 1.0422,
+   "val_loss": 1.2188
+  },
+  {
+   "step": 1800,
+   "train_loss": 1.1091,
+   "val_loss": 1.2389
+  }
+ ],
+ "eval": {
+  "SGZ_S2023_test_prithvi": {
+   "oa": 0.637,
+   "f1": {
+    "rice": 0.756,
+    "maize": 0.214,
+    "cotton": 0.397,
+    "veg": 0.011,
+    "orchard": 0.0,
+    "nonag": 0.606
+   }
+  },
+  "SGZ_S2023_test_lgb": {
+   "oa": 0.819,
+   "f1": {
+    "rice": 0.89,
+    "maize": 0.385,
+    "cotton": 0.693,
+    "veg": 0.009,
+    "orchard": 0.0,
+    "nonag": 0.842
+   }
+  },
+  "SGZ_S2023_test_agreement": 0.636,
+  "SGZ_W2024_train_prithvi": {
+   "oa": 0.48,
+   "f1": {
+    "wheat": 0.479,
+    "sugarbeet": 0.506,
+    "flax": 0.227,
+    "clover": 0.187,
+    "beans": 0.099,
+    "veg": 0.236,
+    "orchard": 0.413,
+    "other": 0.331,
+    "nonag": 0.786
+   }
+  },
+  "SGZ_W2024_train_lgb": {
+   "oa": 0.771,
+   "f1": {
+    "wheat": 0.767,
+    "sugarbeet": 0.857,
+    "flax": 0.528,
+    "clover": 0.802,
+    "beans": 0.559,
+    "veg": 0.102,
+    "orchard": 0.624,
+    "other": 0.716,
+    "nonag": 0.872
+   }
+  },
+  "SGZ_W2024_train_agreement": 0.437,
+  "SGZ_S2024_train_prithvi": {
+   "oa": 0.679,
+   "f1": {
+    "rice": 0.812,
+    "maize": 0.379,
+    "cotton": 0.418,
+    "veg": 0.108,
+    "orchard": 0.028,
+    "nonag": 0.433
+   }
+  },
+  "SGZ_S2024_train_lgb": {
+   "oa": 0.851,
+   "f1": {
+    "rice": 0.912,
+    "maize": 0.658,
+    "cotton": 0.796,
+    "veg": 0.535,
+    "orchard": 0.606,
+    "nonag": 0.756
+   }
+  },
+  "SGZ_S2024_train_agreement": 0.601,
+  "ZAN_W2024_train_prithvi": {
+   "oa": 0.586,
+   "f1": {
+    "wheat": 0.685,
+    "sugarbeet": 0.036,
+    "clover": 0.431,
+    "veg": 0.121,
+    "orchard": 0.349,
+    "nonag": 0.721
+   }
+  },
+  "ZAN_W2024_train_lgb": {
+   "oa": 0.803,
+   "f1": {
+    "wheat": 0.855,
+    "sugarbeet": 0.592,
+    "clover": 0.787,
+    "veg": 0.507,
+    "orchard": 0.609,
+    "nonag": 0.917
+   }
+  },
+  "ZAN_W2024_train_agreement": 0.539,
+  "ZAN_W2024_val_prithvi": {
+   "oa": 0.582,
+   "f1": {
+    "wheat": 0.709,
+    "sugarbeet": 0.0,
+    "clover": 0.327,
+    "veg": 0.171,
+    "orchard": 0.455,
+    "nonag": 0.682
+   }
+  },
+  "ZAN_W2024_val_lgb": {
+   "oa": 0.779,
+   "f1": {
+    "wheat": 0.85,
+    "sugarbeet": 0.077,
+    "clover": 0.745,
+    "veg": 0.597,
+    "orchard": 0.657,
+    "nonag": 0.886
+   }
+  },
+  "ZAN_W2024_val_agreement": 0.519,
+  "ZAN_S2024_val_prithvi": {
+   "oa": 0.578,
+   "f1": {
+    "rice": 0.759,
+    "maize": 0.225,
+    "cotton": 0.081,
+    "veg": 0.005,
+    "orchard": 0.0,
+    "other": 0.0,
+    "nonag": 0.571
+   }
+  },
+  "ZAN_S2024_val_lgb": {
+   "oa": 0.743,
+   "f1": {
+    "rice": 0.915,
+    "maize": 0.607,
+    "cotton": 0.173,
+    "veg": 0.008,
+    "orchard": 0.0,
+    "other": 0.0,
+    "nonag": 0.808
+   }
+  },
+  "ZAN_S2024_val_agreement": 0.648,
+  "MLL_S2023_test_oor_prithvi": {
+   "oa": 0.228,
+   "f1": {
+    "maize": 0.128,
+    "veg": 0.027,
+    "orchard": 0.003,
+    "other": 0.003,
+    "nonag": 0.616
+   }
+  },
+  "MLL_S2023_test_oor_lgb": {
+   "oa": 0.382,
+   "f1": {
+    "maize": 0.317,
+    "veg": 0.005,
+    "orchard": 0.0,
+    "other": 0.0,
+    "nonag": 0.816
+   }
+  },
+  "MLL_S2023_test_oor_agreement": 0.434,
+  "MLL_W2024_test_oor_prithvi": {
+   "oa": 0.559,
+   "f1": {
+    "wheat": 0.69,
+    "sugarbeet": 0.276,
+    "clover": 0.144,
+    "beans": 0.033,
+    "veg": 0.0,
+    "orchard": 0.022,
+    "other": 0.033,
+    "nonag": 0.761
+   }
+  },
+  "MLL_W2024_test_oor_lgb": {
+   "oa": 0.664,
+   "f1": {
+    "wheat": 0.755,
+    "sugarbeet": 0.506,
+    "clover": 0.772,
+    "beans": 0.097,
+    "veg": 0.032,
+    "orchard": 0.179,
+    "other": 0.206,
+    "nonag": 0.827
+   }
+  },
+  "MLL_W2024_test_oor_agreement": 0.422,
+  "MLL_S2024_test_oor_prithvi": {
+   "oa": 0.245,
+   "f1": {
+    "maize": 0.168,
+    "veg": 0.02,
+    "nonag": 0.623
+   }
+  },
+  "MLL_S2024_test_oor_lgb": {
+   "oa": 0.36,
+   "f1": {
+    "maize": 0.293,
+    "veg": 0.003,
+    "nonag": 0.829
+   }
+  },
+  "MLL_S2024_test_oor_agreement": 0.454
+ },
+ "crop_seq_rows": 1113404,
+ "total_runtime_s": 6743.8
+}

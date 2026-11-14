@@ -1,0 +1,28 @@
+[{"stream_name":"stdout","time":4.738378715,"data":"pred files: ['pred_ZAN_S2016.npz', 'pred_ZAN_S2017.npz', 'pred_ZAN_S2018.npz', 'pred_ZAN_S2019.npz', 'pred_ZAN_S2020.npz', 'pred_ZAN_S2021.npz', 'pred_ZAN_S2022.npz', 'pred_ZAN_S2023.npz', 'pred_ZAN_S2024.npz', 'pred_ZAN_S2025.npz', 'pred_ZAN_W2019.npz', 'pred_ZAN_W2020.npz', 'pred_ZAN_W2021.npz', 'pred_ZAN_W2022.npz', 'pred_ZAN_W2023.npz', 'pred_ZAN_W2024.npz', 'pred_ZAN_W2025.npz']\n"}
+,{"stream_name":"stdout","time":16.16532154,"data":"flip done 17\n"}
+,{"stream_name":"stderr","time":21.04526437,"data":"/kaggle/src/script.py:149: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":21.045328093,"data":"  out.append(np.nanmean(nd.reshape(NR, 3, NC, 3), (1, 3))[rr, cc])\n"}
+,{"stream_name":"stdout","time":23.036379271,"data":"calendar 2019 {'wheat': 14619, 'clover': 7088}\n"}
+,{"stream_name":"stderr","time":25.13951472,"data":"/kaggle/src/script.py:149: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":25.139790893,"data":"  out.append(np.nanmean(nd.reshape(NR, 3, NC, 3), (1, 3))[rr, cc])\n"}
+,{"stream_name":"stdout","time":26.545059444,"data":"calendar 2020 {'wheat': 11163, 'clover': 5965}\n"}
+,{"stream_name":"stderr","time":27.471463203,"data":"/kaggle/src/script.py:149: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":27.47151777,"data":"  out.append(np.nanmean(nd.reshape(NR, 3, NC, 3), (1, 3))[rr, cc])\n"}
+,{"stream_name":"stdout","time":28.827576035,"data":"calendar 2021 {'wheat': 6783, 'clover': 5798}\n"}
+,{"stream_name":"stderr","time":29.848412641,"data":"/kaggle/src/script.py:149: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":29.84845209,"data":"  out.append(np.nanmean(nd.reshape(NR, 3, NC, 3), (1, 3))[rr, cc])\n"}
+,{"stream_name":"stdout","time":30.911186143,"data":"calendar 2022 {'wheat': 11819, 'clover': 5993}\n"}
+,{"stream_name":"stdout","time":33.258410178,"data":"calendar 2023 {'wheat': 14954, 'clover': 5435}\n"}
+,{"stream_name":"stderr","time":34.338269695,"data":"/kaggle/src/script.py:149: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":34.338318685,"data":"  out.append(np.nanmean(nd.reshape(NR, 3, NC, 3), (1, 3))[rr, cc])\n"}
+,{"stream_name":"stdout","time":35.616424383,"data":"calendar 2024 {'wheat': 16080, 'clover': 5573}\n"}
+,{"stream_name":"stdout","time":37.782309586,"data":"calendar 2025 {'wheat': 12604, 'clover': 6988}\n"}
+,{"stream_name":"stdout","time":37.801113268,"data":"calendar done\n"}
+,{"stream_name":"stdout","time":39.909304862,"data":"{'window_px': [0, 90, 500], 'flip_frames': 17, 'calendar_years': [2019, 2020, 2021, 2022, 2023, 2024, 2025], 'analogs_error': 'Traceback (most recent call last):\\n  File \"/kaggle/src/script.py\", line 200, in \u003cmodule\u003e\\n    A[inwin]\\n    ~~~~~~~~\\n    ...\u003c2 lines\u003e...\\n    .sort_values(ascending=False)\\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\n    .index[0]\\n    ~~~~~~^^^\\n  File \"/usr/local/lib/python3.13/dist-packages/pandas/core/indexes/base.py\", line 5401, in __getitem__\\n    return getitem(key)\\nIndexError: index 0 is out of bounds for axis 0 with size 0\\n'}\n"}
+,{"stream_name":"stderr","time":43.124073278,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":43.124146523,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":43.541790143,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":43.541843122,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":45.527354926,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":46.942054273,"data":"[NbConvertApp] Writing 337524 bytes to __results__.html\n"}
+]

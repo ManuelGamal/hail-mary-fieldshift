@@ -1,0 +1,50 @@
+[
+ {
+  "file": "block_season.parquet",
+  "sha256": "e3eb3cc30e73fca1061deb00d95c6b30cbd4b9cba57a28d97d864cf5beb79039",
+  "rows": 104046,
+  "schema_version": 1,
+  "produced_by": "lane1/m1_sgz.py",
+  "date": "2026-11-13"
+ },
+ {
+  "file": "blocks.parquet",
+  "sha256": "934a34b1059b06fb213b147ad208345dcb1c6ddff116a537a2fe848e025c3db5",
+  "rows": 34682,
+  "schema_version": 1,
+  "produced_by": "lane1/m1_sgz.py",
+  "date": "2026-11-13"
+ },
+ {
+  "file": "crop_seq.parquet",
+  "sha256": "76e049309cd16357a64a37e5d25312b1399fed00a099d2ee1f516048ea4f05c1",
+  "rows": 64961,
+  "schema_version": 1,
+  "produced_by": "lane1/m1_sgz.py",
+  "date": "2026-11-13"
+ },
+ {
+  "file": "effects.parquet",
+  "sha256": "16155d223fa7e677548f0f59bd469925d93001b7df6bd1966ea49484b5a271c6",
+  "rows": 12,
+  "schema_version": 1,
+  "produced_by": "lane1/m1_sgz.py",
+  "date": "2026-11-13"
+ },
+ {
+  "file": "qa.json",
+  "sha256": "aa6b87a2e0c3f7c800ef88f225af66a339432c00d5ac40b3b642d2800db51252",
+  "rows": null,
+  "schema_version": 1,
+  "produced_by": "lane1/m1_sgz.py",
+  "date": "2026-11-13"
+ },
+ {
+  "file": "robustness_pilot.json",
+  "sha256": "abb3ff475ffa90bcde0b68a5fd3c7ce7c9d4708f6e85ab77100109dff4a507fa",
+  "rows": null,
+  "schema_version": 1,
+  "produced_by": "lane1/m1_sgz.py",
+  "date": "2026-11-13"
+ }
+]

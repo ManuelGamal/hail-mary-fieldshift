@@ -1,0 +1,152 @@
+[{"stream_name":"stdout","time":36.183199255,"data":"{'SGZ': ['S2020', 'S2021', 'S2022', 'S2023', 'S2024', 'S2025', 'W2021', 'W2022', 'W2023', 'W2024', 'W2025'], 'ZAN': ['S2020', 'S2021', 'S2022', 'S2023', 'S2024', 'S2025', 'W2021', 'W2022', 'W2023', 'W2024', 'W2025'], 'MLL': ['S2023', 'S2024', 'W2024']} skipped: ['SGZ_S2016', 'SGZ_S2017', 'SGZ_S2018', 'SGZ_S2019', 'SGZ_W2016', 'SGZ_W2017', 'SGZ_W2018', 'SGZ_W2019', 'SGZ_W2020', 'ZAN_S2016', 'ZAN_S2017', 'ZAN_S2018', 'ZAN_S2019', 'ZAN_W2016', 'ZAN_W2017', 'ZAN_W2018', 'ZAN_W2019', 'ZAN_W2020']\n"}
+,{"stream_name":"stdout","time":48.725761805,"data":"[     13s] labels 12.5s\n"}
+,{"stream_name":"stderr","time":49.192778267,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":75.089910399,"data":"prithvi load: {'missing': 1, 'unexpected': 0}\n"}
+,{"stream_name":"stdout","time":80.003510778,"data":"[     45s] load_train 4.9s\n"}
+,{"stream_name":"stderr","time":80.020218944,"data":"/kaggle/src/script.py:372: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.\n"}
+,{"stream_name":"stderr","time":80.020233582,"data":"  scaler = torch.cuda.amp.GradScaler()\n"}
+,{"stream_name":"stdout","time":154.988758477,"data":"{'step': 150, 'train_loss': 1.5328, 'val_loss': 1.4555} 75s\n"}
+,{"stream_name":"stdout","time":223.553409779,"data":"{'step': 300, 'train_loss': 1.2778, 'val_loss': 1.4366} 144s\n"}
+,{"stream_name":"stdout","time":292.264487253,"data":"{'step': 450, 'train_loss': 1.2257, 'val_loss': 1.3189} 212s\n"}
+,{"stream_name":"stdout","time":360.847022396,"data":"{'step': 600, 'train_loss': 1.2593, 'val_loss': 1.2987} 281s\n"}
+,{"stream_name":"stdout","time":429.549134303,"data":"{'step': 750, 'train_loss': 1.2217, 'val_loss': 1.2504} 350s\n"}
+,{"stream_name":"stdout","time":498.114435745,"data":"{'step': 900, 'train_loss': 1.1645, 'val_loss': 1.2841} 418s\n"}
+,{"stream_name":"stdout","time":565.47985796,"data":"{'step': 1050, 'train_loss': 1.1705, 'val_loss': 1.2386} 485s\n"}
+,{"stream_name":"stdout","time":634.131750427,"data":"{'step': 1200, 'train_loss': 1.1175, 'val_loss': 1.2624} 554s\n"}
+,{"stream_name":"stdout","time":701.547163484,"data":"{'step': 1350, 'train_loss': 1.1847, 'val_loss': 1.2406} 622s\n"}
+,{"stream_name":"stdout","time":768.877307573,"data":"{'step': 1500, 'train_loss': 1.1416, 'val_loss': 1.2724} 689s\n"}
+,{"stream_name":"stdout","time":836.207765215,"data":"{'step': 1650, 'train_loss': 1.0415, 'val_loss': 1.2148} 756s\n"}
+,{"stream_name":"stdout","time":904.857646393,"data":"{'step': 1800, 'train_loss': 1.1084, 'val_loss': 1.2358} 825s\n"}
+,{"stream_name":"stdout","time":905.367219191,"data":"[    870s] train_prithvi 825.3s\n"}
+,{"stream_name":"stdout","time":944.109876431,"data":"SGZ inferred\n"}
+,{"stream_name":"stdout","time":1015.664757479,"data":"ZAN inferred\n"}
+,{"stream_name":"stdout","time":1020.894430758,"data":"MLL inferred\n"}
+,{"stream_name":"stdout","time":1020.894528275,"data":"[    985s] infer_prithvi 115.5s\n"}
+,{"stream_name":"stderr","time":1167.027060312,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":1167.027126173,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":1289.124956205,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":1289.125020871,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":1411.894510851,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":1411.89457891,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":1530.295623877,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":1530.295679903,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":1648.085459906,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":1648.08553612,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":1768.508446717,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":1768.508519242,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":1891.026798995,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":1891.026862863,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":2068.026675009,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":2068.026730428,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":2245.046709786,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":2245.046781883,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":2421.353238723,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":2421.353303437,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":2597.295189804,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":2597.295249282,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":2773.398491412,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":2773.398551373,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":3013.897559363,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":3013.897619255,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":3257.094226394,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":3257.094294034,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":3497.904655539,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":3497.90474697,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":3740.228521446,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":3740.228581555,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":3978.048418363,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":3978.048483528,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":4218.464956167,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4218.465039521,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":4562.475614157,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4562.475678215,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":4905.863939021,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4905.864005936,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":5246.678528427,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5246.678615385,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":5587.441673574,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5587.441726936,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":5924.474611951,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5924.474680379,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":5988.290125594,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5988.290197434,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":6050.963494839,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6050.963554267,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6141.331920187,"data":"[   6106s] lightgbm 5120.4s\n"}
+,{"stream_name":"stdout","time":6141.529477886,"data":"SGZ_S2023_test_prithvi {'oa': 0.638, 'f1': {'rice': 0.756, 'maize': 0.214, 'cotton': 0.4, 'veg': 0.005, 'orchard': 0.0, 'nonag': 0.607}}\n"}
+,{"stream_name":"stdout","time":6141.529531976,"data":"SGZ_S2023_test_lgb {'oa': 0.82, 'f1': {'rice': 0.89, 'maize': 0.386, 'cotton': 0.695, 'veg': 0.01, 'orchard': 0.0, 'nonag': 0.844}}\n"}
+,{"stream_name":"stdout","time":6141.530468346,"data":"SGZ_S2023_test_agreement 0.638\n"}
+,{"stream_name":"stdout","time":6141.530496406,"data":"ZAN_W2024_val_prithvi {'oa': 0.584, 'f1': {'wheat': 0.709, 'sugarbeet': 0.0, 'clover': 0.332, 'veg': 0.186, 'orchard': 0.45, 'nonag': 0.692}}\n"}
+,{"stream_name":"stdout","time":6141.530501409,"data":"ZAN_W2024_val_lgb {'oa': 0.809, 'f1': {'wheat': 0.87, 'sugarbeet': 0.272, 'clover': 0.771, 'veg': 0.636, 'orchard': 0.676, 'nonag': 0.909}}\n"}
+,{"stream_name":"stdout","time":6141.530505839,"data":"ZAN_W2024_val_agreement 0.539\n"}
+,{"stream_name":"stdout","time":6141.530509961,"data":"ZAN_S2024_val_prithvi {'oa': 0.582, 'f1': {'rice': 0.762, 'maize': 0.239, 'cotton': 0.082, 'veg': 0.005, 'orchard': 0.0, 'other': 0.0, 'nonag': 0.58}}\n"}
+,{"stream_name":"stdout","time":6141.530523476,"data":"ZAN_S2024_val_lgb {'oa': 0.745, 'f1': {'rice': 0.915, 'maize': 0.606, 'cotton': 0.177, 'veg': 0.007, 'orchard': 0.0, 'other': 0.0, 'nonag': 0.812}}\n"}
+,{"stream_name":"stdout","time":6141.530527682,"data":"ZAN_S2024_val_agreement 0.654\n"}
+,{"stream_name":"stdout","time":6141.530531557,"data":"MLL_S2023_test_oor_prithvi {'oa': 0.226, 'f1': {'maize': 0.119, 'veg': 0.028, 'orchard': 0.002, 'other': 0.003, 'nonag': 0.613}}\n"}
+,{"stream_name":"stdout","time":6141.530535551,"data":"MLL_S2023_test_oor_lgb {'oa': 0.383, 'f1': {'maize': 0.322, 'veg': 0.005, 'orchard': 0.0, 'other': 0.0, 'nonag': 0.814}}\n"}
+,{"stream_name":"stdout","time":6141.530539211,"data":"MLL_S2023_test_oor_agreement 0.435\n"}
+,{"stream_name":"stdout","time":6141.530543261,"data":"MLL_W2024_test_oor_prithvi {'oa': 0.554, 'f1': {'wheat': 0.684, 'sugarbeet': 0.273, 'clover': 0.149, 'beans': 0.013, 'veg': 0.003, 'orchard': 0.03, 'other': 0.032, 'nonag': 0.763}}\n"}
+,{"stream_name":"stdout","time":6141.530547121,"data":"MLL_W2024_test_oor_lgb {'oa': 0.704, 'f1': {'wheat': 0.788, 'sugarbeet': 0.506, 'clover': 0.795, 'beans': 0.076, 'veg': 0.032, 'orchard': 0.204, 'other': 0.207, 'nonag': 0.857}}\n"}
+,{"stream_name":"stdout","time":6141.5305509,"data":"MLL_W2024_test_oor_agreement 0.451\n"}
+,{"stream_name":"stdout","time":6141.530554618,"data":"MLL_S2024_test_oor_prithvi {'oa': 0.237, 'f1': {'maize': 0.153, 'veg': 0.013, 'nonag': 0.621}}\n"}
+,{"stream_name":"stdout","time":6141.530558133,"data":"MLL_S2024_test_oor_lgb {'oa': 0.363, 'f1': {'maize': 0.299, 'veg': 0.002, 'nonag': 0.834}}\n"}
+,{"stream_name":"stdout","time":6141.530561602,"data":"MLL_S2024_test_oor_agreement 0.449\n"}
+,{"stream_name":"stdout","time":6141.616268933,"data":"site season_id  prithvi_rice_ha  lgb_rice_ha  fao_rice_ha\n"}
+,{"stream_name":"stdout","time":6141.616321565,"data":" MLL     S2023         14023.80      8880.39         0.00\n"}
+,{"stream_name":"stdout","time":6141.616327123,"data":" MLL     S2024         10607.49      7437.33         0.00\n"}
+,{"stream_name":"stdout","time":6141.616331645,"data":" SGZ     S2020         41583.51     39058.29          NaN\n"}
+,{"stream_name":"stdout","time":6141.616335742,"data":" SGZ     S2021         37607.31     34070.85          NaN\n"}
+,{"stream_name":"stdout","time":6141.616340207,"data":" SGZ     S2022         39737.97     39327.75          NaN\n"}
+,{"stream_name":"stdout","time":6141.616344253,"data":" SGZ     S2023         45708.03     43399.35     21198.69\n"}
+,{"stream_name":"stdout","time":6141.616348913,"data":" SGZ     S2024         42003.18     39350.16     23851.53\n"}
+,{"stream_name":"stdout","time":6141.616353129,"data":" SGZ     S2025         48850.11     43300.80          NaN\n"}
+,{"stream_name":"stdout","time":6141.616370944,"data":" ZAN     S2020         86308.20     67237.65          NaN\n"}
+,{"stream_name":"stdout","time":6141.616375437,"data":" ZAN     S2021         82448.73     58250.70          NaN\n"}
+,{"stream_name":"stdout","time":6141.616379419,"data":" ZAN     S2022         90229.23     72586.08          NaN\n"}
+,{"stream_name":"stdout","time":6141.616392857,"data":" ZAN     S2023        109109.70     78907.59          NaN\n"}
+,{"stream_name":"stdout","time":6141.616396619,"data":" ZAN     S2024         98898.12     79816.68     31271.85\n"}
+,{"stream_name":"stdout","time":6141.616400256,"data":" ZAN     S2025         99124.65     78001.65          NaN\n"}
+,{"stream_name":"stdout","time":6141.616645213,"data":"[   6106s] eval 0.3s\n"}
+,{"stream_name":"stdout","time":6155.058463703,"data":"[   6120s] artefacts 13.4s\n"}
+,{"stream_name":"stdout","time":6170.44576746,"data":"                                          effect_id  estimate    ci_low   ci_high  n_treat  n_ctrl  n_blocks\n"}
+,{"stream_name":"stdout","time":6170.445802768,"data":"     SGZ:clover-vs-wheat\u003erice:peak_ndvi:switcher_fe -0.003304 -0.005687 -0.000921     3755    4974      2658\n"}
+,{"stream_name":"stdout","time":6170.4458085,"data":"      SGZ:clover-vs-wheat\u003erice:ndvi_auc:switcher_fe  0.349986 -0.377685  1.077658     3755    4974      2658\n"}
+,{"stream_name":"stdout","time":6170.445812482,"data":"    SGZ:clover-vs-wheat\u003emaize:peak_ndvi:switcher_fe -0.000595 -0.010766  0.009576      391     390       365\n"}
+,{"stream_name":"stdout","time":6170.445816381,"data":"     SGZ:clover-vs-wheat\u003emaize:ndvi_auc:switcher_fe  0.983342 -0.471643  2.438327      391     390       365\n"}
+,{"stream_name":"stdout","time":6170.445820378,"data":"  SGZ:sugarbeet-vs-wheat\u003erice:peak_ndvi:switcher_fe  0.001243 -0.000511  0.002998    13390   10271      6776\n"}
+,{"stream_name":"stdout","time":6170.445824214,"data":"   SGZ:sugarbeet-vs-wheat\u003erice:ndvi_auc:switcher_fe  0.193638 -0.206660  0.593937    13390   10271      6776\n"}
+,{"stream_name":"stdout","time":6170.445828209,"data":"SGZ:sugarbeet-vs-wheat\u003ecotton:peak_ndvi:switcher_fe -0.001073 -0.004638  0.002493     1654    1217       993\n"}
+,{"stream_name":"stdout","time":6170.445832206,"data":" SGZ:sugarbeet-vs-wheat\u003ecotton:ndvi_auc:switcher_fe -0.069041 -0.851180  0.713097     1654    1217       993\n"}
+,{"stream_name":"stdout","time":6170.445836166,"data":"     ZAN:clover-vs-wheat\u003erice:peak_ndvi:switcher_fe -0.002780 -0.004111 -0.001449    34054   41819     19079\n"}
+,{"stream_name":"stdout","time":6170.445839921,"data":"      ZAN:clover-vs-wheat\u003erice:ndvi_auc:switcher_fe  0.207491 -0.034172  0.449154    34054   41819     19079\n"}
+,{"stream_name":"stdout","time":6170.445843726,"data":"    ZAN:clover-vs-wheat\u003emaize:peak_ndvi:switcher_fe -0.003420 -0.007190  0.000349     1165    1224       995\n"}
+,{"stream_name":"stdout","time":6170.445847417,"data":"     ZAN:clover-vs-wheat\u003emaize:ndvi_auc:switcher_fe -0.322534 -1.009022  0.363954     1165    1224       995\n"}
+,{"stream_name":"stdout","time":6170.445851053,"data":"   ZAN:clover-vs-wheat\u003ecotton:peak_ndvi:switcher_fe -0.005890 -0.009588 -0.002191     1227    1353      1063\n"}
+,{"stream_name":"stdout","time":6170.445854722,"data":"    ZAN:clover-vs-wheat\u003ecotton:ndvi_auc:switcher_fe -0.484439 -1.128905  0.160027     1227    1353      1063\n"}
+,{"stream_name":"stdout","time":6170.445858375,"data":"  ZAN:sugarbeet-vs-wheat\u003erice:peak_ndvi:switcher_fe  0.005822 -0.010114  0.021758      251     408       200\n"}
+,{"stream_name":"stdout","time":6170.445862146,"data":"   ZAN:sugarbeet-vs-wheat\u003erice:ndvi_auc:switcher_fe -0.289730 -4.309074  3.729614      251     408       200\n"}
+,{"stream_name":"stdout","time":6170.447458983,"data":"SGZ:clover-vs-wheat\u003erice:peak_ndvi:switcher_fe lead placebo: {'estimate': 0.0001820819574508782, 'ci': [-0.003905076097040851, 0.004269240011942607], 'pass': True}\n"}
+,{"stream_name":"stdout","time":6170.447654006,"data":"SGZ:clover-vs-wheat\u003erice:ndvi_auc:switcher_fe lead placebo: {'estimate': 0.5089944644387188, 'ci': [-0.34035419221880814, 1.3583431210962456], 'pass': True}\n"}
+,{"stream_name":"stdout","time":6170.447823033,"data":"SGZ:clover-vs-wheat\u003emaize:peak_ndvi:switcher_fe lead placebo: {'estimate': 0.008927219555774834, 'ci': [-0.008011095459248453, 0.02586553457079812], 'pass': True}\n"}
+,{"stream_name":"stdout","time":6170.447988765,"data":"SGZ:clover-vs-wheat\u003emaize:ndvi_auc:switcher_fe lead placebo: {'estimate': 2.1719295107425607, 'ci': [-0.3612439935229075, 4.705103015008029], 'pass': True}\n"}
+,{"stream_name":"stdout","time":6170.448137488,"data":"SGZ:sugarbeet-vs-wheat\u003erice:peak_ndvi:switcher_fe lead placebo: {'estimate': -0.0027843112171209356, 'ci': [-0.005668449210245063, 9.982677600319173e-05], 'pass': True}\n"}
+,{"stream_name":"stdout","time":6170.448364598,"data":"SGZ:sugarbeet-vs-wheat\u003erice:ndvi_auc:switcher_fe lead placebo: {'estimate': -0.1567681399955736, 'ci': [-0.7407017968871147, 0.4271655168959675], 'pass': True}\n"}
+,{"stream_name":"stdout","time":6170.448589156,"data":"SGZ:sugarbeet-vs-wheat\u003ecotton:peak_ndvi:switcher_fe lead placebo: {'estimate': -0.0015295078992581385, 'ci': [-0.007105953341655052, 0.004046937543138775], 'pass': True}\n"}
+,{"stream_name":"stdout","time":6170.448805761,"data":"SGZ:sugarbeet-vs-wheat\u003ecotton:ndvi_auc:switcher_fe lead placebo: {'estimate': -0.7935540436088001, 'ci': [-2.0048537180162556, 0.41774563079865545], 'pass': True}\n"}
+,{"stream_name":"stdout","time":6170.449033585,"data":"ZAN:clover-vs-wheat\u003erice:peak_ndvi:switcher_fe lead placebo: {'estimate': -0.00047552569455170724, 'ci': [-0.0022745187630972526, 0.0013234673739938381], 'pass': True}\n"}
+,{"stream_name":"stdout","time":6170.4492323,"data":"ZAN:clover-vs-wheat\u003erice:ndvi_auc:switcher_fe lead placebo: {'estimate': -0.13279992395759643, 'ci': [-0.43925785905791914, 0.17365801114272628], 'pass': True}\n"}
+,{"stream_name":"stdout","time":6170.449397428,"data":"ZAN:clover-vs-wheat\u003emaize:peak_ndvi:switcher_fe lead placebo: {'estimate': 0.004450127011875971, 'ci': [-0.0017474146962130257, 0.010647668719964967], 'pass': True}\n"}
+,{"stream_name":"stdout","time":6170.449619661,"data":"ZAN:clover-vs-wheat\u003emaize:ndvi_auc:switcher_fe lead placebo: {'estimate': 0.7989410800055231, 'ci': [-0.29578302202394735, 1.8936651820349937], 'pass': True}\n"}
+,{"stream_name":"stdout","time":6170.449860925,"data":"ZAN:clover-vs-wheat\u003ecotton:peak_ndvi:switcher_fe lead placebo: {'estimate': 0.001951472806296517, 'ci': [-0.005971056210479258, 0.009874001823072291], 'pass': True}\n"}
+,{"stream_name":"stdout","time":6170.450112123,"data":"ZAN:clover-vs-wheat\u003ecotton:ndvi_auc:switcher_fe lead placebo: {'estimate': -0.5057079541882408, 'ci': [-2.260846813895488, 1.2494309055190065], 'pass': True}\n"}
+,{"stream_name":"stdout","time":6170.450287869,"data":"ZAN:sugarbeet-vs-wheat\u003erice:peak_ndvi:switcher_fe lead placebo: None\n"}
+,{"stream_name":"stdout","time":6170.450522524,"data":"ZAN:sugarbeet-vs-wheat\u003erice:ndvi_auc:switcher_fe lead placebo: None\n"}
+,{"stream_name":"stdout","time":6170.450645186,"data":"[   6135s] switcher_fe 15.4s\n"}
+,{"stream_name":"stdout","time":6170.504577899,"data":"DONE 6135.0\n"}
+,{"stream_name":"stderr","time":6183.943793483,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":6183.94385244,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":6184.302335843,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":6184.302384993,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":6185.220818718,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":6186.787680603,"data":"[NbConvertApp] Writing 467137 bytes to __results__.html\n"}
+]

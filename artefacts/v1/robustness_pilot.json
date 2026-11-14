@@ -1,0 +1,53 @@
+{
+ "SGZ:clover-vs-wheat>rice:peak_ndvi:ols": {
+  "placebo_prev_summer_peak_ndvi": {
+   "estimate": 0.008672123526198318,
+   "ci": [
+    0.004545290755706082,
+    0.012798956296690554
+   ],
+   "pass": false
+  },
+  "pending": [
+   "permutation",
+   "overlap",
+   "sensitivity",
+   "misclass_propagation",
+   "direction_check"
+  ]
+ },
+ "SGZ:sugarbeet-vs-wheat>rice:peak_ndvi:ols": {
+  "placebo_prev_summer_peak_ndvi": {
+   "estimate": 0.008177614448971601,
+   "ci": [
+    0.004355249949213312,
+    0.01199997894872989
+   ],
+   "pass": false
+  },
+  "pending": [
+   "permutation",
+   "overlap",
+   "sensitivity",
+   "misclass_propagation",
+   "direction_check"
+  ]
+ },
+ "SGZ:sugarbeet-vs-wheat>cotton:peak_ndvi:ols": {
+  "placebo_prev_summer_peak_ndvi": {
+   "estimate": 0.013621357619811557,
+   "ci": [
+    0.006202273445496664,
+    0.02104044179412645
+   ],
+   "pass": false
+  },
+  "pending": [
+   "permutation",
+   "overlap",
+   "sensitivity",
+   "misclass_propagation",
+   "direction_check"
+  ]
+ }
+}

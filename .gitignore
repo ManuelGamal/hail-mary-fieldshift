@@ -1,0 +1,9 @@
+.ruff_cache/
+__pycache__/
+data/
+*.npy
+kaggle/*/out/**/*.parquet
+kaggle/*/out/**/*.npz
+docs/submission/preview/
+docs/submission/deck.pptx
+~$*

@@ -1,0 +1,9 @@
+[{"stream_name":"stdout","time":4.5312560170000005,"data":"m1: ['/kaggle/input/notebooks/manuelgamal/fieldshift-lane1-m1-sgz/artefacts', '/kaggle/input/notebooks/manuelgamal/fieldshift-lane1-m1-sites/artefacts_MLL', '/kaggle/input/notebooks/manuelgamal/fieldshift-lane1-m1-sites/artefacts_ZAN'] m2: /kaggle/input/notebooks/manuelgamal/fieldshift-lane1-m2-train/m2\n"}
+,{"stream_name":"stdout","time":1281.079783808,"data":"{\"rows\": 848745, \"query_blocks\": 86560, \"blocks_considered\": 86860, \"coverage\": 0.997, \"sanity_same_stratum_share\": 1.0, \"sanity_mean_abs_delev_m\": 0.618, \"median_similarity\": 0.834}\n"}
+,{"stream_name":"stderr","time":1284.615149337,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1284.615188217,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1284.890624102,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1284.890660082,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1286.243675829,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1287.191827682,"data":"[NbConvertApp] Writing 313394 bytes to __results__.html\n"}
+]

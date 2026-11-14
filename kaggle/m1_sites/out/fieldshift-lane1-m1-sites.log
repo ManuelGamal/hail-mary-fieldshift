@@ -1,0 +1,88 @@
+[{"stream_name":"stdout","time":26.906578765,"data":"grid 420 x 434 blocks; 30 m grid 1260 x 1302\n"}
+,{"stream_name":"stdout","time":30.217718307,"data":"[    4.8s] labels done in 4.8s\n"}
+,{"stream_name":"stderr","time":36.045703397,"data":"/kaggle/src/script.py:433: RuntimeWarning: invalid value encountered in sqrt\n"}
+,{"stream_name":"stderr","time":36.045748216,"data":"  s = np.sqrt(np.clip(refl[\"blue\"], 0, None) * refl[\"red\"])\n"}
+,{"stream_name":"stdout","time":36.303260638,"data":"  S2023: 1/88 dates\n"}
+,{"stream_name":"stdout","time":53.245429429,"data":"  S2023: 21/88 dates\n"}
+,{"stream_name":"stdout","time":67.990410622,"data":"  S2023: 41/88 dates\n"}
+,{"stream_name":"stdout","time":83.810188274,"data":"  S2023: 61/88 dates\n"}
+,{"stream_name":"stdout","time":97.42958105,"data":"  S2023: 81/88 dates\n"}
+,{"stream_name":"stderr","time":112.012704078,"data":"/kaggle/src/script.py:292: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":112.012750104,"data":"  return np.nanmean(a, axis=(1, 3))\n"}
+,{"stream_name":"stdout","time":112.05205459,"data":"[   86.6s] hls_S2023 done in 81.5s\n"}
+,{"stream_name":"stdout","time":116.193667315,"data":"  W2024: 1/89 dates\n"}
+,{"stream_name":"stdout","time":130.02927792,"data":"  W2024: 21/89 dates\n"}
+,{"stream_name":"stdout","time":141.62639499,"data":"  W2024: 41/89 dates\n"}
+,{"stream_name":"stdout","time":152.612589795,"data":"  W2024: 61/89 dates\n"}
+,{"stream_name":"stdout","time":165.353108693,"data":"  W2024: 81/89 dates\n"}
+,{"stream_name":"stdout","time":170.367413644,"data":"[  144.9s] hls_W2024 done in 58.3s\n"}
+,{"stream_name":"stdout","time":175.488676042,"data":"  S2024: 1/91 dates\n"}
+,{"stream_name":"stdout","time":188.129014341,"data":"  S2024: 21/91 dates\n"}
+,{"stream_name":"stdout","time":200.281815205,"data":"  S2024: 41/91 dates\n"}
+,{"stream_name":"stdout","time":212.161925612,"data":"  S2024: 61/91 dates\n"}
+,{"stream_name":"stdout","time":224.196404794,"data":"  S2024: 81/91 dates\n"}
+,{"stream_name":"stdout","time":233.03429005,"data":"[  207.6s] hls_S2024 done in 62.7s\n"}
+,{"stream_name":"stdout","time":257.772204642,"data":"[  232.3s] covariates done in 24.7s\n"}
+,{"stream_name":"stdout","time":258.937217338,"data":"[  233.5s] assemble done in 1.2s\n"}
+,{"stream_name":"stdout","time":259.319935885,"data":"pilot covariates: elev_m_f + dist_canal_m_f + dist_drain_m_f + dist_coast_km_f + si_f + si_missing + peak_ndvi_S2023 + C(crop_S2023) | dropped: {}\n"}
+,{"stream_name":"stdout","time":259.91467958,"data":"QA_PRE {\"attrition\": {\"grid_blocks\": 182280, \"cropland_frac\u003e=0.6 (W2024)\": 60152, \"S2023 purity\u003e=0.6\": 0, \"W2024 purity\u003e=0.6\": 39361, \"S2024 purity\u003e=0.6\": 39682, \"analysis (3 seasons labelled, n_clear S2024\u003e=5)\": 29101}, \"hls\": {\"S2023\": {\"items\": 174, \"dates\": 88}, \"W2024\": {\"items\": 178, \"dates\": 89}, \"S2024\": {\"items\": 185, \"dates\": 91}}, \"osm\": {\"canal_lines\": 123, \"drain_lines\": 14, \"coast_lines\": 4}, \"power\": {\"lat\": 30.646051248588787, \"lon\": 31.470398105248343, \"S2023\": {\"et0_mm\": 1265.1308007487469, \"heat_days_gt35\": 136}, \"W2024\": {\"et0_mm\": 739.1715195166719, \"heat_days_gt35\": 6}, \"S2024\": {\"et0_mm\": 1283.3272848713405, \"heat_days_gt35\": 140}}, \"notes\": [\"no FAO label for ZAN S2023\", \"et_season_mm, lst_mean_c, esi_mean null: ECOSTRESS needs an Earthdata token (Kaggle Secret).\", \"smap_sm_mean, imerg_mm null in v1: NSIDC/GES DISC need Earthdata login; regional context only.\", \"salinity_index = mean sqrt(blue*red) over clear bare-soil looks (NDVI\u003c0.25) in S2023 (pre-treatment); weak proxy.\", \"rice_zone and governorate are governorate-level constants for ZAN.\", \"ndvi_auc = mean clear-sky NDVI x season length in days (NDVI-days).\"]}\n"}
+,{"stream_name":"stdout","time":260.571040747,"data":"[  235.1s] pilot_effects done in 1.6s\n"}
+,{"stream_name":"stderr","time":260.605155095,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":260.606141952,"data":"  File \"/kaggle/src/script.py\", line 914, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":260.606166417,"data":"    .describe(percentiles=[0.25, 0.5, 0.75])[[\"count\", \"25%\", \"50%\", \"75%\"]]\n"}
+,{"stream_name":"stderr","time":260.60617274,"data":"     ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":260.606192883,"data":"  File \"/usr/local/lib/python3.13/dist-packages/pandas/core/groupby/generic.py\", line 713, in describe\n"}
+,{"stream_name":"stderr","time":260.606198117,"data":"    return super().describe(\n"}
+,{"stream_name":"stderr","time":260.606202906,"data":"           ~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":260.606207384,"data":"        percentiles=percentiles, include=include, exclude=exclude\n"}
+,{"stream_name":"stderr","time":260.606212063,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":260.6062168,"data":"    )\n"}
+,{"stream_name":"stderr","time":260.606220983,"data":"    ^\n"}
+,{"stream_name":"stderr","time":260.606225367,"data":"  File \"/usr/local/lib/python3.13/dist-packages/pandas/core/groupby/groupby.py\", line 3614, in describe\n"}
+,{"stream_name":"stderr","time":260.606230001,"data":"    result = result.unstack()\n"}
+,{"stream_name":"stderr","time":260.606234316,"data":"  File \"/usr/local/lib/python3.13/dist-packages/pandas/core/series.py\", line 4634, in unstack\n"}
+,{"stream_name":"stderr","time":260.606258873,"data":"    return unstack(self, level, fill_value, sort)\n"}
+,{"stream_name":"stderr","time":260.606265883,"data":"  File \"/usr/local/lib/python3.13/dist-packages/pandas/core/reshape/reshape.py\", line 511, in unstack\n"}
+,{"stream_name":"stderr","time":260.606270497,"data":"    raise ValueError(\n"}
+,{"stream_name":"stderr","time":260.606275011,"data":"        f\"index must be a MultiIndex to unstack, {type(obj.index)} was passed\"\n"}
+,{"stream_name":"stderr","time":260.606279364,"data":"    )\n"}
+,{"stream_name":"stderr","time":260.606283872,"data":"ValueError: index must be a MultiIndex to unstack, \u003cclass 'pandas.core.indexes.base.Index'\u003e was passed\n"}
+,{"stream_name":"stdout","time":268.628128403,"data":"grid 278 x 172 blocks; 30 m grid 834 x 516\n"}
+,{"stream_name":"stdout","time":271.489715433,"data":"[    4.1s] labels done in 4.1s\n"}
+,{"stream_name":"stdout","time":278.100459302,"data":"  S2023: 1/47 dates\n"}
+,{"stream_name":"stderr","time":279.089024568,"data":"/kaggle/src/script.py:433: RuntimeWarning: invalid value encountered in sqrt\n"}
+,{"stream_name":"stderr","time":279.089071977,"data":"  s = np.sqrt(np.clip(refl[\"blue\"], 0, None) * refl[\"red\"])\n"}
+,{"stream_name":"stdout","time":283.314691917,"data":"  S2023: 21/47 dates\n"}
+,{"stream_name":"stdout","time":291.714672025,"data":"  S2023: 41/47 dates\n"}
+,{"stream_name":"stderr","time":295.864848358,"data":"/kaggle/src/script.py:292: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":295.864889411,"data":"  return np.nanmean(a, axis=(1, 3))\n"}
+,{"stream_name":"stdout","time":295.883393311,"data":"[   28.5s] hls_S2023 done in 23.9s\n"}
+,{"stream_name":"stdout","time":300.365957884,"data":"  W2024: 1/52 dates\n"}
+,{"stream_name":"stdout","time":304.321045164,"data":"  W2024: 21/52 dates\n"}
+,{"stream_name":"stdout","time":311.049929778,"data":"  W2024: 41/52 dates\n"}
+,{"stream_name":"stdout","time":316.937776,"data":"[   49.5s] hls_W2024 done in 21.1s\n"}
+,{"stream_name":"stdout","time":321.366757882,"data":"  S2024: 1/51 dates\n"}
+,{"stream_name":"stdout","time":325.725530463,"data":"  S2024: 21/51 dates\n"}
+,{"stream_name":"stdout","time":332.315140801,"data":"  S2024: 41/51 dates\n"}
+,{"stream_name":"stdout","time":336.859809309,"data":"[   69.4s] hls_S2024 done in 19.9s\n"}
+,{"stream_name":"stdout","time":340.438592848,"data":"[   73.0s] covariates done in 3.6s\n"}
+,{"stream_name":"stdout","time":340.740851685,"data":"[   73.3s] assemble done in 0.3s\n"}
+,{"stream_name":"stdout","time":340.839871995,"data":"pilot covariates: elev_m_f + dist_canal_m_f + dist_drain_m_f + si_f + si_missing + peak_ndvi_S2023 + C(crop_S2023) | dropped: {'dist_coast_km_f': 'nan=7041, unique=0'}\n"}
+,{"stream_name":"stdout","time":340.98196109,"data":"QA_PRE {\"attrition\": {\"grid_blocks\": 47816, \"cropland_frac\u003e=0.6 (W2024)\": 14497, \"S2023 purity\u003e=0.6\": 13317, \"W2024 purity\u003e=0.6\": 9038, \"S2024 purity\u003e=0.6\": 11770, \"analysis (3 seasons labelled, n_clear S2024\u003e=5)\": 7041}, \"hls\": {\"S2023\": {\"items\": 51, \"dates\": 47}, \"W2024\": {\"items\": 57, \"dates\": 52}, \"S2024\": {\"items\": 55, \"dates\": 51}}, \"osm\": {\"canal_lines\": 81, \"drain_lines\": 54, \"coast_lines\": 0}, \"power\": {\"lat\": 27.669361676254063, \"lon\": 30.795911187781904, \"S2023\": {\"et0_mm\": 1498.7471816868178, \"heat_days_gt35\": 132}, \"W2024\": {\"et0_mm\": 899.968080058105, \"heat_days_gt35\": 10}, \"S2024\": {\"et0_mm\": 1536.3578850157855, \"heat_days_gt35\": 134}}, \"notes\": [\"et_season_mm, lst_mean_c, esi_mean null: ECOSTRESS needs an Earthdata token (Kaggle Secret).\", \"smap_sm_mean, imerg_mm null in v1: NSIDC/GES DISC need Earthdata login; regional context only.\", \"salinity_index = mean sqrt(blue*red) over clear bare-soil looks (NDVI\u003c0.25) in S2023 (pre-treatment); weak proxy.\", \"rice_zone and governorate are governorate-level constants for MLL.\", \"ndvi_auc = mean clear-sky NDVI x season length in days (NDVI-days).\"]}\n"}
+,{"stream_name":"stdout","time":341.287403162,"data":"[   73.9s] pilot_effects done in 0.5s\n"}
+,{"stream_name":"stdout","time":341.715512405,"data":"VALIDATION OK\n"}
+,{"stream_name":"stdout","time":341.715552251,"data":"EFFECTS\n"}
+,{"stream_name":"stdout","time":341.71555797,"data":"                                effect_id  estimate    ci_low   ci_high  n_treat  n_ctrl\n"}
+,{"stream_name":"stdout","time":341.715562171,"data":"MLL:clover-vs-wheat\u003emaize:peak_ndvi:naive -0.026133 -0.031039 -0.021227      535    5743\n"}
+,{"stream_name":"stdout","time":341.7155665,"data":"  MLL:clover-vs-wheat\u003emaize:peak_ndvi:ols -0.021558 -0.025144 -0.017972      535    5743\n"}
+,{"stream_name":"stdout","time":341.715570469,"data":" MLL:clover-vs-wheat\u003emaize:ndvi_auc:naive  2.226398  1.423215  3.029581      535    5743\n"}
+,{"stream_name":"stdout","time":341.715574434,"data":"   MLL:clover-vs-wheat\u003emaize:ndvi_auc:ols  2.695969  1.981519  3.410419      535    5743\n"}
+,{"stream_name":"stdout","time":341.715578497,"data":"ROBUST {\"MLL:clover-vs-wheat\u003emaize:peak_ndvi:ols\": {\"placebo_prev_summer_peak_ndvi\": {\"estimate\": -0.010344703571948402, \"ci\": [-0.014154624181516475, -0.006534782962380329], \"pass\": false}, \"pending\": [\"permutation\", \"overlap\", \"sensitivity\", \"misclass_propagation\", \"direction_check\"]}}\n"}
+,{"stream_name":"stdout","time":341.715584524,"data":"QA {\"attrition\": {\"grid_blocks\": 47816, \"cropland_frac\u003e=0.6 (W2024)\": 14497, \"S2023 purity\u003e=0.6\": 13317, \"W2024 purity\u003e=0.6\": 9038, \"S2024 purity\u003e=0.6\": 11770, \"analysis (3 seasons labelled, n_clear S2024\u003e=5)\": 7041}, \"hls\": {\"S2023\": {\"items\": 51, \"dates\": 47}, \"W2024\": {\"items\": 57, \"dates\": 52}, \"S2024\": {\"items\": 55, \"dates\": 51}}, \"osm\": {\"canal_lines\": 81, \"drain_lines\": 54, \"coast_lines\": 0}, \"power\": {\"lat\": 27.669361676254063, \"lon\": 30.795911187781904, \"S2023\": {\"et0_mm\": 1498.7471816868178, \"heat_days_gt35\": 132}, \"W2024\": {\"et0_mm\": 899.968080058105, \"heat_days_gt35\": 10}, \"S2024\": {\"et0_mm\": 1536.3578850157855, \"heat_days_gt35\": 134}}, \"timings_s\": {\"labels\": 4.1, \"hls_S2023\": 23.9, \"hls_W2024\": 21.1, \"hls_S2024\": 19.9, \"covariates\": 3.6, \"assemble\": 0.3, \"pilot_effects\": 0.5}, \"n_clear_obs_S2024_share_ge5\": 1.0}\n"}
+,{"stream_name":"stderr","time":345.640348338,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":345.640384926,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":346.022280209,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":346.022308512,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":347.096985215,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":348.574600735,"data":"[NbConvertApp] Writing 472256 bytes to __results__.html\n"}
+]

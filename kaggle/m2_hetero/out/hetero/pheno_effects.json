@@ -1,0 +1,347 @@
+[
+ {
+  "site": "SGZ",
+  "treat": "clover",
+  "next_crop": "rice",
+  "outcome": "greenup_doy",
+  "estimate": 0.014574049938392593,
+  "ci_low": -0.6665009477965839,
+  "ci_high": 0.6956490476733691,
+  "se": 0.3474674792129717,
+  "ctrl_mean": 170.17157260436116,
+  "pct_of_ctrl": 0.008564326999713634,
+  "n_treat": 9066,
+  "n_ctrl": 13726,
+  "n_blocks": 6698,
+  "lead_placebo": {
+   "estimate": -0.3868084226548536,
+   "ci": [
+    -1.1509400408202328,
+    0.3773231955105256
+   ],
+   "pass": true
+  }
+ },
+ {
+  "site": "SGZ",
+  "treat": "clover",
+  "next_crop": "rice",
+  "outcome": "senesce_doy",
+  "estimate": -0.11641255874418238,
+  "ci_low": -0.6307778182400556,
+  "ci_high": 0.3979527007516908,
+  "se": 0.2624139587298464,
+  "ctrl_mean": 255.05799406510593,
+  "pct_of_ctrl": -0.04564160365601675,
+  "n_treat": 9043,
+  "n_ctrl": 11919,
+  "n_blocks": 6591,
+  "lead_placebo": {
+   "estimate": -1.5125735292164506,
+   "ci": [
+    -2.559617327297783,
+    -0.46552973113511853
+   ],
+   "pass": false
+  }
+ },
+ {
+  "site": "SGZ",
+  "treat": "clover",
+  "next_crop": "rice",
+  "outcome": "season_len_d",
+  "estimate": -0.7139161101537255,
+  "ci_low": -1.2307486895812316,
+  "ci_high": -0.1970835307262193,
+  "se": 0.263671047288981,
+  "ctrl_mean": 84.72820845401077,
+  "pct_of_ctrl": -0.842595545427151,
+  "n_treat": 8189,
+  "n_ctrl": 11657,
+  "n_blocks": 6476,
+  "lead_placebo": {
+   "estimate": -1.4175546748368226,
+   "ci": [
+    -2.3503590616726613,
+    -0.48475028800098396
+   ],
+   "pass": false
+  }
+ },
+ {
+  "site": "SGZ",
+  "treat": "sugarbeet",
+  "next_crop": "rice",
+  "outcome": "greenup_doy",
+  "estimate": -1.118715618218403,
+  "ci_low": -1.733263801770269,
+  "ci_high": -0.504167434666537,
+  "se": 0.3135323553492461,
+  "ctrl_mean": 169.7416993973915,
+  "pct_of_ctrl": -0.6590694108695808,
+  "n_treat": 15113,
+  "n_ctrl": 14533,
+  "n_blocks": 9008,
+  "lead_placebo": {
+   "estimate": -2.8975541981469757,
+   "ci": [
+    -3.916899293620693,
+    -1.8782091026732586
+   ],
+   "pass": false
+  }
+ },
+ {
+  "site": "SGZ",
+  "treat": "sugarbeet",
+  "next_crop": "rice",
+  "outcome": "senesce_doy",
+  "estimate": -1.6714254430376556,
+  "ci_low": -2.2809708358271514,
+  "ci_high": -1.0618800502481598,
+  "se": 0.31097932354265795,
+  "ctrl_mean": 251.67507956767213,
+  "pct_of_ctrl": -0.6641203594367917,
+  "n_treat": 15361,
+  "n_ctrl": 13435,
+  "n_blocks": 8910,
+  "lead_placebo": {
+   "estimate": -3.8612537313152155,
+   "ci": [
+    -4.917102378108016,
+    -2.805405084522415
+   ],
+   "pass": false
+  }
+ },
+ {
+  "site": "SGZ",
+  "treat": "sugarbeet",
+  "next_crop": "rice",
+  "outcome": "season_len_d",
+  "estimate": -0.08122453641006551,
+  "ci_low": -0.4967258359185229,
+  "ci_high": 0.3342767630983919,
+  "se": 0.21197961882610603,
+  "ctrl_mean": 82.63614052705539,
+  "pct_of_ctrl": -0.09829178358526108,
+  "n_treat": 13334,
+  "n_ctrl": 12711,
+  "n_blocks": 8622,
+  "lead_placebo": {
+   "estimate": -1.39164145409911,
+   "ci": [
+    -2.3724393175073124,
+    -0.4108435906909077
+   ],
+   "pass": false
+  }
+ },
+ {
+  "site": "ZAN",
+  "treat": "clover",
+  "next_crop": "rice",
+  "outcome": "greenup_doy",
+  "estimate": 3.5698162535965343,
+  "ci_low": 3.340417594149943,
+  "ci_high": 3.7992149130431256,
+  "se": 0.11703914452111937,
+  "ctrl_mean": 182.2960562528523,
+  "pct_of_ctrl": 1.9582520472330178,
+  "n_treat": 26299,
+  "n_ctrl": 36216,
+  "n_blocks": 17371,
+  "lead_placebo": {
+   "estimate": -0.5318089658989448,
+   "ci": [
+    -0.8073051285758632,
+    -0.25631280322202626
+   ],
+   "pass": false
+  }
+ },
+ {
+  "site": "ZAN",
+  "treat": "clover",
+  "next_crop": "rice",
+  "outcome": "senesce_doy",
+  "estimate": -0.9093043476600927,
+  "ci_low": -1.0363956329491786,
+  "ci_high": -0.782213062371007,
+  "se": 0.0648419848096853,
+  "ctrl_mean": 272.8680229671879,
+  "pct_of_ctrl": -0.3332396144378689,
+  "n_treat": 27517,
+  "n_ctrl": 36050,
+  "n_blocks": 17371,
+  "lead_placebo": {
+   "estimate": -0.00595373330860749,
+   "ci": [
+    -0.19926458039529654,
+    0.18735711377808156
+   ],
+   "pass": true
+  }
+ },
+ {
+  "site": "ZAN",
+  "treat": "clover",
+  "next_crop": "rice",
+  "outcome": "season_len_d",
+  "estimate": -4.487839738236654,
+  "ci_low": -4.729365632034532,
+  "ci_high": -4.2463138444387765,
+  "se": 0.1232264405042177,
+  "ctrl_mean": 90.57452702961885,
+  "pct_of_ctrl": -4.954858595915253,
+  "n_treat": 26246,
+  "n_ctrl": 36045,
+  "n_blocks": 17368,
+  "lead_placebo": {
+   "estimate": 0.5129900411627186,
+   "ci": [
+    0.19078426629895823,
+    0.835195816026479
+   ],
+   "pass": false
+  }
+ },
+ {
+  "site": "ZAN",
+  "treat": "sugarbeet",
+  "next_crop": "rice",
+  "outcome": "greenup_doy",
+  "estimate": -4.816607881222933,
+  "ci_low": -6.502486393347523,
+  "ci_high": -3.130729369098343,
+  "se": 0.8594408995996375,
+  "ctrl_mean": 177.22629608433544,
+  "pct_of_ctrl": -2.717772693805488,
+  "n_treat": 1024,
+  "n_ctrl": 1303,
+  "n_blocks": 868,
+  "lead_placebo": {
+   "estimate": -1.0962226362635858,
+   "ci": [
+    -5.74103868401099,
+    3.548593411483818
+   ],
+   "pass": true
+  }
+ },
+ {
+  "site": "ZAN",
+  "treat": "sugarbeet",
+  "next_crop": "rice",
+  "outcome": "senesce_doy",
+  "estimate": -1.966970223732982,
+  "ci_low": -3.2869654166438185,
+  "ci_high": -0.6469750308221456,
+  "se": 0.6729347919556485,
+  "ctrl_mean": 268.8967086786255,
+  "pct_of_ctrl": -0.7314965785184919,
+  "n_treat": 1089,
+  "n_ctrl": 1283,
+  "n_blocks": 868,
+  "lead_placebo": {
+   "estimate": -15.333450418298996,
+   "ci": [
+    -20.590905233161617,
+    -10.075995603436375
+   ],
+   "pass": false
+  }
+ },
+ {
+  "site": "ZAN",
+  "treat": "sugarbeet",
+  "next_crop": "rice",
+  "outcome": "season_len_d",
+  "estimate": 3.081535705369051,
+  "ci_low": 1.5586602535878378,
+  "ci_high": 4.604411157150264,
+  "se": 0.7763311348142236,
+  "ctrl_mean": 91.78721310624314,
+  "pct_of_ctrl": 3.3572603427910943,
+  "n_treat": 1019,
+  "n_ctrl": 1280,
+  "n_blocks": 868,
+  "lead_placebo": {
+   "estimate": -13.142375576767199,
+   "ci": [
+    -19.24303023520814,
+    -7.04172091832626
+   ],
+   "pass": false
+  }
+ },
+ {
+  "site": "ZAN",
+  "treat": "clover",
+  "next_crop": "cotton",
+  "outcome": "greenup_doy",
+  "estimate": 2.758410498876127,
+  "ci_low": 0.4961934894770046,
+  "ci_high": 5.02062750827525,
+  "se": 1.1514582138974003,
+  "ctrl_mean": 176.3084695545137,
+  "pct_of_ctrl": 1.5645365794654809,
+  "n_treat": 389,
+  "n_ctrl": 500,
+  "n_blocks": 375,
+  "lead_placebo": {
+   "estimate": 1.6866512679515284,
+   "ci": [
+    -3.6377941056149914,
+    7.011096641518048
+   ],
+   "pass": true
+  }
+ },
+ {
+  "site": "ZAN",
+  "treat": "clover",
+  "next_crop": "cotton",
+  "outcome": "senesce_doy",
+  "estimate": -0.09888561925419588,
+  "ci_low": -3.522272432806807,
+  "ci_high": 3.324501194298415,
+  "se": 1.7406353325660155,
+  "ctrl_mean": 265.2304818312503,
+  "pct_of_ctrl": -0.037282901486832366,
+  "n_treat": 344,
+  "n_ctrl": 367,
+  "n_blocks": 353,
+  "lead_placebo": {
+   "estimate": -1.5174628918506525,
+   "ci": [
+    -8.66946110343074,
+    5.634535319729434
+   ],
+   "pass": true
+  }
+ },
+ {
+  "site": "ZAN",
+  "treat": "clover",
+  "next_crop": "cotton",
+  "outcome": "season_len_d",
+  "estimate": -2.895925275205775,
+  "ci_low": -5.576807629809245,
+  "ci_high": -0.21504292060230457,
+  "se": 1.3628208768787735,
+  "ctrl_mean": 89.65023773339134,
+  "pct_of_ctrl": -3.230248294285506,
+  "n_treat": 323,
+  "n_ctrl": 366,
+  "n_blocks": 351,
+  "lead_placebo": {
+   "estimate": -5.318123819799721,
+   "ci": [
+    -14.209648309700933,
+    3.57340067010149
+   ],
+   "pass": true
+  }
+ }
+]

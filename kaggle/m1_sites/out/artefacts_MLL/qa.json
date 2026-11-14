@@ -1,0 +1,155 @@
+{
+ "site": "MLL",
+ "timings_s": {
+  "labels": 4.1,
+  "hls_S2023": 23.9,
+  "hls_W2024": 21.1,
+  "hls_S2024": 19.9,
+  "covariates": 3.6,
+  "assemble": 0.3,
+  "pilot_effects": 0.5
+ },
+ "attrition": {
+  "grid_blocks": 47816,
+  "cropland_frac>=0.6 (W2024)": 14497,
+  "S2023 purity>=0.6": 13317,
+  "W2024 purity>=0.6": 9038,
+  "S2024 purity>=0.6": 11770,
+  "analysis (3 seasons labelled, n_clear S2024>=5)": 7041
+ },
+ "notes": [
+  "et_season_mm, lst_mean_c, esi_mean null: ECOSTRESS needs an Earthdata token (Kaggle Secret).",
+  "smap_sm_mean, imerg_mm null in v1: NSIDC/GES DISC need Earthdata login; regional context only.",
+  "salinity_index = mean sqrt(blue*red) over clear bare-soil looks (NDVI<0.25) in S2023 (pre-treatment); weak proxy.",
+  "rice_zone and governorate are governorate-level constants for MLL.",
+  "ndvi_auc = mean clear-sky NDVI x season length in days (NDVI-days)."
+ ],
+ "hls": {
+  "S2023": {
+   "items": 51,
+   "dates": 47
+  },
+  "W2024": {
+   "items": 57,
+   "dates": 52
+  },
+  "S2024": {
+   "items": 55,
+   "dates": 51
+  }
+ },
+ "osm_fclass_counts": {
+  "canal": 62,
+  "drain": 54,
+  "river": 15,
+  "stream": 4
+ },
+ "osm": {
+  "canal_lines": 81,
+  "drain_lines": 54,
+  "coast_lines": 0
+ },
+ "power_rs_units": "MJ/m^2/day",
+ "power": {
+  "lat": 27.669361676254063,
+  "lon": 30.795911187781904,
+  "S2023": {
+   "et0_mm": 1498.7471816868178,
+   "heat_days_gt35": 132
+  },
+  "W2024": {
+   "et0_mm": 899.968080058105,
+   "heat_days_gt35": 10
+  },
+  "S2024": {
+   "et0_mm": 1536.3578850157855,
+   "heat_days_gt35": 134
+  }
+ },
+ "pilot_covariates_dropped": {
+  "dist_coast_km_f": "nan=7041, unique=0"
+ },
+ "peak_ndvi_by_crop": {
+  "S2023": {
+   "maize": {
+    "count": 13061.0,
+    "25%": 0.742,
+    "50%": 0.773,
+    "75%": 0.8
+   },
+   "nonag": {
+    "count": 188.0,
+    "25%": 0.695,
+    "50%": 0.742,
+    "75%": 0.781
+   },
+   "other": {
+    "count": 1.0,
+    "25%": 0.837,
+    "50%": 0.837,
+    "75%": 0.837
+   },
+   "veg": {
+    "count": 67.0,
+    "25%": 0.773,
+    "50%": 0.802,
+    "75%": 0.827
+   }
+  },
+  "W2024": {
+   "beans": {
+    "count": 10.0,
+    "25%": 0.838,
+    "50%": 0.84,
+    "75%": 0.852
+   },
+   "clover": {
+    "count": 843.0,
+    "25%": 0.83,
+    "50%": 0.855,
+    "75%": 0.875
+   },
+   "sugarbeet": {
+    "count": 273.0,
+    "25%": 0.846,
+    "50%": 0.863,
+    "75%": 0.877
+   },
+   "veg": {
+    "count": 1.0,
+    "25%": 0.785,
+    "50%": 0.785,
+    "75%": 0.785
+   },
+   "wheat": {
+    "count": 7911.0,
+    "25%": 0.835,
+    "50%": 0.859,
+    "75%": 0.878
+   }
+  },
+  "S2024": {
+   "maize": {
+    "count": 10683.0,
+    "25%": 0.741,
+    "50%": 0.774,
+    "75%": 0.801
+   },
+   "nonag": {
+    "count": 338.0,
+    "25%": 0.644,
+    "50%": 0.682,
+    "75%": 0.724
+   },
+   "veg": {
+    "count": 749.0,
+    "25%": 0.807,
+    "50%": 0.826,
+    "75%": 0.844
+   }
+  }
+ },
+ "n_clear_obs_S2024_share_ge5": 1.0,
+ "validation_problems": [],
+ "total_runtime_s": 74.1
+}
