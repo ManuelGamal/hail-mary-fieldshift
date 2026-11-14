@@ -13,12 +13,19 @@ The exact fields aren't saved anywhere in our notes. These follow the usual NASA
 | **Project image / thumbnail** | `docs/submission/assets/map_S2024.png` (summer crop map), or a screenshot of deck slide 5 |
 
 ## High-level summary (short field)
-Every winter crop choice in the Nile Delta has a water cost. Using NASA satellites on 17,000+ fields over ten years, we measured it: clover before rice costs about 50 m³ more water per feddan each season, about 0.6 million m³ a year in our Sharqia study area alone.
+Precrop Payoff Atlas advises Nile Delta farmers what to plant next season to save water or earn more, based on what really happened on fields like theirs, measured by NASA satellites over ten years. First example: clover before rice costs about 50 m³ more water per feddan every season.
 
 ## Project details (long field)
 **What it does.**
-- It measures the water cost of each winter crop choice, field by field, across the Nile Delta, using only open satellite data.
-- Planners and farmers can see what a rotation costs in water on fields like their own, without a farm survey.
+- A farmer picks their field.
+- The tool finds about 10 fields like it (same salinity, water access and soil fingerprint) and looks at ten years of what those fields grew and how much water they used.
+- It then suggests what to plant next: the option that saves the most water, or, with the farmer's own crop prices, the one that should earn the most.
+- Every suggestion shows its evidence and how sure we are.
+
+**What exists today.**
+- The full measurement engine: ten years of crop maps, water use per field, a fair field-by-field comparison and the 10-field matching.
+- One fully worked example, below.
+- The farmer-facing advice screen and the revenue calculator (using farmer-entered prices) are next.
 
 **How it works.**
 1. **Ten years of crops.** NASA HLS (Landsat + Sentinel-2) is turned into a crop map of every 90 m field block, every season from 2016 to 2025. That's about 100,000 blocks in Kafr El-Sheikh and Sharqia. A LightGBM classifier trained on FAO WaPOR crop maps is right on about 8 in 10 blocks in a year it never saw. Rice area comes within about 10% of FAO's maps.
@@ -27,7 +34,7 @@ Every winter crop choice in the Nile Delta has a water cost. Using NASA satellit
 4. **Check.** Next year's clover cannot change this year's water use. Our method correctly finds no effect there.
 5. **Fields like yours.** For any field, the pipeline finds about 10 similar fields: same salinity class and rice zone, similar elevation, and similar satellite fingerprints from NASA/IBM's Prithvi-EO-2.0 model.
 
-**Result.**
+**Worked example: clover or wheat before rice?**
 - Clover before rice: +12 mm over the summer (+2.4%), measured on 17,371 Sharqia fields (range 11–13 mm). That's about 50 m³ per feddan.
 - Kafr El-Sheikh: +10 mm.
 - About 0.6 million m³ a year in our Sharqia study area alone.

@@ -2,7 +2,7 @@
 
 **Project name:** Precrop Payoff Atlas
 
-**Short description (≤ 300 chars):** Every winter crop choice in the Nile Delta has a water cost. Using NASA satellites on 17,000+ fields over ten years, we measured it: clover before rice costs about 50 m³ more water per feddan each season, about 0.6 million m³ a year in our Sharqia study area alone.
+**Short description (≤ 300 chars):** Precrop Payoff Atlas advises Nile Delta farmers what to plant next season to save water or earn more, based on what really happened on fields like theirs, measured by NASA satellites over ten years. First example: clover before rice costs about 50 m³ more water per feddan every season.
 
 **Long description:**
 Egypt's farms run on Nile water, and every season farmers choose what to grow in winter before their summer crop. We measured what that choice costs in water, field by field, using only NASA data.

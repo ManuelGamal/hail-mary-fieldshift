@@ -280,7 +280,7 @@ text(
     Emu(1900000),
     Emu(10500000),
     Emu(1600000),
-    "What does a winter crop cost in water?",
+    "What should I plant next, to save water or earn more?",
     54,
     "#FFFFFF",
     True,
@@ -292,7 +292,7 @@ text(
     Emu(3750000),
     Emu(10500000),
     Emu(800000),
-    "We measured it with NASA satellites, field by field, across ten years of the Nile Delta.",
+    "Advice for Nile Delta farmers from what really happened on fields like theirs, measured by NASA satellites.",
     26,
     "#DCE6F0",
 )
@@ -409,11 +409,11 @@ content(
 # 7. why it matters
 content(
     "Why it matters",
-    "A tool that tells farmers which advice holds up on land like theirs.",
+    "Next: advice for every field, to save water or raise income.",
     [
         "For any field, our pipeline finds about 10 fields like it (same salinity, water and history) and shows what really happened there.",
         "Honest by design: a claim is shown only if it passes the impossible-effect check.",
-        "Next: fertilizer and yield records from cooperatives, then Upper Egypt.",
+        "Next: the farmer advice screen, a revenue calculator using the farmer's own prices, then all of the Delta.",
     ],
     image=os.path.join(ASSETS, "history_grid.png"),
     footer="Data: NASA HLS, NASA ECOSTRESS, NASA POWER, NASADEM, FAO WaPOR, OpenStreetMap. Models: NASA/IBM Prithvi-EO-2.0, LightGBM. "
