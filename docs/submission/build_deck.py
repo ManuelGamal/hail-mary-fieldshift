@@ -373,8 +373,8 @@ fig.savefig(os.path.join(ASSETS, "bars_water.png"), facecolor=PAPER)
 plt.close(fig)
 
 content(
-    "What we measured",
-    "Every winter crop choice has a water cost. We measured it from space.",
+    "Worked example · 1 of 3",
+    "Example: should a Sharqia farmer plant clover or wheat before rice?",
     [
         "For each field, we compared summers after clover with summers after wheat, on the same field, year after year.",
         "This removes the soil, salinity and canal differences between fields.",
@@ -385,7 +385,7 @@ content(
 )
 
 content(
-    "The result",
+    "Worked example · 2 of 3",
     "Clover before rice costs about 50 m³ more water per feddan, every season.",
     [
         f"+{et['estimate']:.0f} mm over the summer season (+{et['pct_of_ctrl']:.1f}%), measured on 17,371 fields in Sharqia; range {et['ci_low']:.0f}–{et['ci_high']:.0f} mm.",
@@ -396,7 +396,7 @@ content(
 )
 
 content(
-    "The impact",
+    "Worked example · 3 of 3",
     "In our Sharqia study area alone, that is about 0.6 million m³ of water a year.",
     [
         "About 6,100 field blocks grow rice after clover each year in our study area (0.5–0.65 million m³).",

@@ -34,7 +34,8 @@ Precrop Payoff Atlas advises Nile Delta farmers what to plant next season to sav
 4. **Check.** Next year's clover cannot change this year's water use. Our method correctly finds no effect there.
 5. **Fields like yours.** For any field, the pipeline finds about 10 similar fields: same salinity class and rice zone, similar elevation, and similar satellite fingerprints from NASA/IBM's Prithvi-EO-2.0 model.
 
-**Worked example: clover or wheat before rice?**
+**Worked example: should a Sharqia farmer plant clover or wheat before rice?**
+The tool's first answer, fully measured:
 - Clover before rice: +12 mm over the summer (+2.4%), measured on 17,371 Sharqia fields (range 11–13 mm). That's about 50 m³ per feddan.
 - Kafr El-Sheikh: +10 mm.
 - About 0.6 million m³ a year in our Sharqia study area alone.
